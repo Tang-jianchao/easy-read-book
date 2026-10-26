@@ -1,0 +1,19 @@
+{
+  "name": "我的书架",
+  "short_name": "书架",
+  "description": "本地电子书架，快速浏览书籍精读笔记",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4efe5",
+  "theme_color": "#f4efe5",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

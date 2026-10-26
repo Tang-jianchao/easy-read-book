@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="书架">
+  <rect width="192" height="192" rx="44" fill="#221e18"/>
+  <path d="M44 50h40c11 0 20 9 20 20v72c0-11-9-20-20-20H44z" fill="#f4efe5" opacity=".92"/>
+  <path d="M148 50h-40c-11 0-20 9-20 20v72c0-11 9-20 20-20h40z" fill="#d8a64a"/>
+</svg>

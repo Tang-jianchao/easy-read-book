@@ -1,0 +1,8 @@
+node_modules
+dist
+*.log
+.DS_Store
+
+# public/library 是同步生成的内容快照，随仓库提交，
+# 这样没有本地书稿目录的机器（含 GitHub Actions）也能构建。
+

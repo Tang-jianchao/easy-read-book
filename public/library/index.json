@@ -1,0 +1,1867 @@
+{
+  "generatedAt": "2026-10-25T15:54:54.140Z",
+  "source": "E:/personal/book-to-skills",
+  "books": [
+    {
+      "slug": "congming-touzizhe",
+      "title": "聪明的投资者（第4版）",
+      "author": "本杰明·格雷厄姆（美国）",
+      "description": "《聪明的投资者》(本杰明·格雷厄姆，第4版) 价值投资知识库。投资圣经。核心概念：投资vs投机的区别、防御型与进攻型投资者、安全边际、市场波动作为向导、债券/股票配置、内在价值与贬值题材、多样化原则。适用于个人投资决策、股票/债券选择、估值分析、风险控制。",
+      "category": "投资经典",
+      "tagline": "安全边际与市场先生",
+      "theme": {
+        "from": "#1c2b3a",
+        "to": "#0d161f",
+        "accent": "#d8a64a",
+        "glyph": "智"
+      },
+      "intro": "**1. 投资 vs 投机（全书基石）**\n\"投资操作是基于全面的分析，确保本金的安全和满意的投资回报。不符合这些要求的操作是投机性的。\"理性投资者是\"有知识的理解能力\"，更多是性格特质而非智力。三条经受时间考验的准则：①如果投机，最终你将(可能)失去钱；②当大多数人(包括专家)悲观时买，乐观时卖；③调查，然后投资。\n\n**2. 防御型投资者 vs 进攻型投资者**\n- **防御型**（大多数）：保存资本、避免严重损失、不需经常决策。以合理价格购买高等级债券+分散的重要普通股，长期持有。\n- **进攻型**（进取心）：愿花时间精心选择有吸引力证券，承担更多风险；理性第一原则=绝不购买没有自己研究或不满意的证券。\n- 取得一般投资结果比预期更容易，取得非常好的结果则很难。\n\n**3. 安全边际（投资核心概念，四字座右铭）**\n成功投资的秘密=安全边际：价格与内在价值之间的顺差/缓冲。债券靠超额收益/企业价值超出债务的部分；普通股靠期望获利能力大幅高于债券利率；低估价值证券靠价格远低于可指示价值（如2/3或更低）。**安全边际基于数据、推理与经验，是可验证的算术，而非主观判断。** 它提供\"获利机会>损失机会\"的保护，配合多样化。\n\n**4. 市场波动是向导，不是指令**\n价格波动是投资效益的指示计，不是决策向导。市场先生（情绪化报价者）的报价只在你愿用时才利用——悲观时买、乐观时卖，而不是被迫跟随。长期看，合理价格买普通股能对冲通胀；过高价位买普通股则危险。\n\n**5. 多样化 & 债券/股票配置**\n安全边际与多样化紧密相关：单只证券即使有边际也可能表现差，但随委托数增加利润总和必超损失总和（保险原理）。股票配置建议在最低25%、最高75%之间。购买代表性的普通股，以几年平均市价买，有适当安全边际，不需要高质量洞察与预测。\n\n**6. 通货膨胀保护**\n通胀使仅持有现金/债券的购买力锐减；以合理价格购买普通股整体上增加了本金价值与年收入，几乎抵消美元购买力下降，是对冲通胀的有力工具。\n\n**7. 四大商业原理（\"最后的话\"）**\n①知道你正在做什么、了解证券价值如了解自己生意；②不要让任何其他人经营你的业务，除非能理解并控制其行动或坚定相信其忠诚能力；③收益应基于算术而非信心，远离收益很小损失很大的冒险；④用知识、经验与勇气，数据与推理正确就按它行动，公众意见不决定对错。",
+      "scope": "本书为格雷厄姆 1964 年（第4版）成书，数据与案例基于 1914–1963 年美国市场。时代背景（1964年高利率、战后牛市）与当下不同，但投资原理（安全边际、市场先生、防御/进攻、多样化）历久弥新。财务数据可迁移到当代分析，具体收益率数字勿照搬。投资观点不构成投资建议。",
+      "chapterCount": 16,
+      "minutes": 32,
+      "chapters": [
+        {
+          "id": "ch01-what-returns",
+          "label": "ch01",
+          "title": "聪明的投资者将获得什么",
+          "subtitle": "投资vs投机、防御/进攻、投资者定义",
+          "file": "chapters/ch01-what-returns.md",
+          "chars": 959,
+          "minutes": 2
+        },
+        {
+          "id": "ch02-investor-stockmarket",
+          "label": "ch02",
+          "title": "投资者与股市波动",
+          "subtitle": "波动是指示计非向导、低价买高卖、估值",
+          "file": "chapters/ch02-investor-stockmarket.md",
+          "chars": 848,
+          "minutes": 2
+        },
+        {
+          "id": "ch03-1964-market",
+          "label": "ch03",
+          "title": "1964年股市行情",
+          "subtitle": "新时代新标准、市场基本状况评估、周期",
+          "file": "chapters/ch03-1964-market.md",
+          "chars": 799,
+          "minutes": 2
+        },
+        {
+          "id": "ch04-investor-advisors",
+          "label": "ch04",
+          "title": "投资者和投资顾问",
+          "subtitle": "金融服务的陷阱、判断忠告、分析员",
+          "file": "chapters/ch04-investor-advisors.md",
+          "chars": 712,
+          "minutes": 2
+        },
+        {
+          "id": "ch05-defensive-strategy",
+          "label": "ch05",
+          "title": "防御型投资者组合策略",
+          "subtitle": "债券/股票分配、普通股原则、成长股、美元成本平均",
+          "file": "chapters/ch05-defensive-strategy.md",
+          "chars": 851,
+          "minutes": 2
+        },
+        {
+          "id": "ch06-aggressive-negative",
+          "label": "ch06",
+          "title": "进攻型组合：负面方法",
+          "subtitle": "二等债券、外国债、新证券、可转债、新股炒作陷阱",
+          "file": "chapters/ch06-aggressive-negative.md",
+          "chars": 694,
+          "minutes": 2
+        },
+        {
+          "id": "ch07-aggressive-positive",
+          "label": "ch07",
+          "title": "进攻型组合：正面方法",
+          "subtitle": "成长股讨论、三个推荐领域、廉价证券、特别情况",
+          "file": "chapters/ch07-aggressive-positive.md",
+          "chars": 777,
+          "minutes": 2
+        },
+        {
+          "id": "ch08-nonprofessional-analysis",
+          "label": "ch08",
+          "title": "非专业投资者如何分析证券",
+          "subtitle": "一般方法、定性vs定量、市盈率与价值",
+          "file": "chapters/ch08-nonprofessional-analysis.md",
+          "chars": 788,
+          "minutes": 2
+        },
+        {
+          "id": "ch09-defensive-selection",
+          "label": "ch09",
+          "title": "防御型投资者的证券选择",
+          "subtitle": "债券/股票挑选标准、高质量普通股",
+          "file": "chapters/ch09-defensive-selection.md",
+          "chars": 685,
+          "minutes": 2
+        },
+        {
+          "id": "ch10-aggressive-valuation",
+          "label": "ch10",
+          "title": "进攻型投资者的证券选择：评估",
+          "subtitle": "评估方法、成长股估值、市盈率",
+          "file": "chapters/ch10-aggressive-valuation.md",
+          "chars": 737,
+          "minutes": 2
+        },
+        {
+          "id": "ch11-six-cases",
+          "label": "ch11",
+          "title": "发现贬值的题材：六个案例",
+          "subtitle": "应用分析技术找低估证券",
+          "file": "chapters/ch11-six-cases.md",
+          "chars": 716,
+          "minutes": 2
+        },
+        {
+          "id": "ch12-earnings-patterns",
+          "label": "ch12",
+          "title": "股票收益和价格的变动模式",
+          "subtitle": "收益与价格的历史模式、均值回归",
+          "file": "chapters/ch12-earnings-patterns.md",
+          "chars": 667,
+          "minutes": 2
+        },
+        {
+          "id": "ch13-earnings-price-analysis",
+          "label": "ch13",
+          "title": "收益和价格变化的组合分析",
+          "subtitle": "收益/价格综合分析方法",
+          "file": "chapters/ch13-earnings-price-analysis.md",
+          "chars": 740,
+          "minutes": 2
+        },
+        {
+          "id": "ch14-stockholders-management",
+          "label": "ch14",
+          "title": "股东与管理层",
+          "subtitle": "股东权利、管理层监督、委托代理",
+          "file": "chapters/ch14-stockholders-management.md",
+          "chars": 557,
+          "minutes": 1
+        },
+        {
+          "id": "ch15-stockholders-dividends",
+          "label": "ch15",
+          "title": "股东与股利政策",
+          "subtitle": "股息政策、留存收益 vs 分红",
+          "file": "chapters/ch15-stockholders-dividends.md",
+          "chars": 650,
+          "minutes": 2
+        },
+        {
+          "id": "ch16-margin-of-safety",
+          "label": "ch16",
+          "title": "\"安全边际\"——投资核心概念",
+          "subtitle": "安全边际、多样化、投资vs投机试金石、四大商业原理",
+          "file": "chapters/ch16-margin-of-safety.md",
+          "chars": 1170,
+          "minutes": 3
+        }
+      ],
+      "topics": [
+        {
+          "name": "投资vs投机",
+          "refs": [
+            "ch01",
+            "ch16"
+          ],
+          "chapters": [
+            "ch01-what-returns",
+            "ch16-margin-of-safety"
+          ]
+        },
+        {
+          "name": "防御型投资者",
+          "refs": [
+            "ch01",
+            "ch05",
+            "ch09"
+          ],
+          "chapters": [
+            "ch01-what-returns",
+            "ch05-defensive-strategy",
+            "ch09-defensive-selection"
+          ]
+        },
+        {
+          "name": "进攻型投资者",
+          "refs": [
+            "ch01",
+            "ch06",
+            "ch07",
+            "ch10"
+          ],
+          "chapters": [
+            "ch01-what-returns",
+            "ch06-aggressive-negative",
+            "ch07-aggressive-positive",
+            "ch10-aggressive-valuation"
+          ]
+        },
+        {
+          "name": "安全边际",
+          "refs": [
+            "ch16",
+            "ch10"
+          ],
+          "chapters": [
+            "ch16-margin-of-safety",
+            "ch10-aggressive-valuation"
+          ]
+        },
+        {
+          "name": "市场波动/市场先生",
+          "refs": [
+            "ch02",
+            "ch03"
+          ],
+          "chapters": [
+            "ch02-investor-stockmarket",
+            "ch03-1964-market"
+          ]
+        },
+        {
+          "name": "债券/股票配置",
+          "refs": [
+            "ch05",
+            "ch09"
+          ],
+          "chapters": [
+            "ch05-defensive-strategy",
+            "ch09-defensive-selection"
+          ]
+        },
+        {
+          "name": "估值/内在价值",
+          "refs": [
+            "ch08",
+            "ch10",
+            "ch11"
+          ],
+          "chapters": [
+            "ch08-nonprofessional-analysis",
+            "ch10-aggressive-valuation",
+            "ch11-six-cases"
+          ]
+        },
+        {
+          "name": "多样化",
+          "refs": [
+            "ch16",
+            "ch05"
+          ],
+          "chapters": [
+            "ch16-margin-of-safety",
+            "ch05-defensive-strategy"
+          ]
+        },
+        {
+          "name": "通胀保护",
+          "refs": [
+            "ch01",
+            "ch03",
+            "ch05"
+          ],
+          "chapters": [
+            "ch01-what-returns",
+            "ch03-1964-market",
+            "ch05-defensive-strategy"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 878,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 738,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1222,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "zhishujijin-zhinan",
+      "title": "指数基金投资指南",
+      "author": "银行螺丝钉（中）",
+      "description": "《指数基金投资指南》(银行螺丝钉) 定投指数基金知识库。核心：价值投资理念（价格价值关系/能力圈/安全边际）、4估值指标（市盈率/盈利收益率/市净率/股息率）、盈利收益率法（>10%投/6.4%卖）、博格公式、懒人定投法（低估定投/正常持有/高估卖出）、定期不定额、宽基与行业指数、家庭资产配置、长期投资心理建设。适用于普通投资者定投指数基金、资产配置、估值判断。",
+      "category": "指数定投",
+      "tagline": "用估值定投指数基金",
+      "theme": {
+        "from": "#145244",
+        "to": "#082b24",
+        "accent": "#f2c14e",
+        "glyph": "指"
+      },
+      "intro": "**1. 攒资产，投资于长期收益最高的资产**\n想成为富人的第一步是**攒资产**，让钱为你工作。历史数据显示股票/股票基金是长期收益率最高的资产类别之一，指数基金是最适合普通投资者的股票基金——\"躺着赚钱\"。看收益更要看风险（波动），用长期眼光投资。\n\n**2. 价值投资理念（格雷厄姆）**\n①**价格与价值的关系**：价格围绕内在价值波动（股价像遛弯的小狗，终会回到主人身边）——长期趋于一致；②**能力圈**：不熟不做，能判断品种大致价值才算具备能力圈（\"知道边界所在比能力圈大小更重要\"）；③**安全边际**：\"用0.4元买价值1元的东西\"——价格大幅低于价值时买入。**不清楚能力圈、忽视安全边际，是投资者亏损的主因。**\n\n**3. 4个估值指标**\n- **市盈率（PE）**=市值/盈利，反映愿为1元净利润付多少；适用流通性好、盈利稳定的品种（宽基指数基金）。警惕\"市盈率陷阱\"（下行周期/周期行业，盈利下滑使PE失真）。\n- **盈利收益率（E/P）**=市盈率的倒数，格雷厄姆常用；越高代表估值越低、越可能低估。\n- **市净率（PB）**=股价/净资产，适用强周期行业（证券、航空、航运、能源）与资产稳定品种；关注ROE（资产运作效率）、资产保值性、无形资产的干扰。\n- **股息率**=现金分红/市值；股息率=盈利收益率×分红率；股价越低股息率越高。\n\n**4. 盈利收益率法（格雷厄姆策略）**\n**盈利收益率>10%**→分批投资（低估）；**<10%但>6.4%**→坚定持有已买入份额；**<6.4%**→分批卖出（高估）。分批而非一次性（避免卖在最低）。历史上（2004-2015）配合此策略定投，年复合收益率提升两倍以上。\n\n**5. 博格公式（指数基金收益）**\n**指数基金年复合收益率 = 股息率 + 市盈率变化率 + 盈利增长率**。据此在股息率高、PE低（低估）、盈利增长稳定时买入。博格公式的变种用于周期行业（用PB替代PE，因盈利不稳定）。盈利收益率法≈博格公式的快速判断版。\n\n**6. 懒人定投法（结合估值）**\n**在价格低于价值（低估）时定投**：低估时坚持定投；正常估值暂停定投、继续持有；高估时分批卖出。定投=定期定额/不定额买入，分摊成本、规避择时、化腐朽为神奇。低估时定投比任何时候都投收益高得多。**低估是一个区域，不是一点。**\n\n**7. 定期不定额（定投收益放大器）**\n每次定投金额不同——**估值越低投得越多**（盈利收益率法：低估加倍金额；博格公式：PE/PB低时多投）。在普通定投基础上显著提升收益。\n\n**8. 指数品种：宽基 + 行业**\n- **宽基指数**：沪深300（大盘）、中证500（中盘）、上证50（超大盘）、中证800（大中盘）、恒生/恒生国企等——不限行业，覆盖面广。\n- **行业指数**：消费（必需消费）、医药（300医药/500医药）、证券、红利、养老等——聚焦特定行业。\n- 用市盈率/盈利收益率估宽基；周期行业（证券、钢铁、煤炭、航空、航运）用市净率。\n\n**9. 构建定投计划 & 家庭资产配置**\n每月收入扣除生活开支后，**剩余资金的50%左右可用于定投**。定投步骤：选低估品种→制定每月定投额→执行→低估买入/正常持有/高估卖出。家庭资产配置：货币基金（余额宝，随取随用）+债券基金（利率低位选短期/高位选长期）+指数基金（长期增值）分层搭配。\n\n**10. 长期投资心理建设**\n**下金蛋的鹅**：指数基金是持续下金蛋的资产，别因短期波动杀鹅。**复利**：投资收益再投资，利滚利。**低估买入还下跌**：短期涨跌看供求，与估值关系不大，别恐慌。**买指数就是买国运**：长期看指数随国家经济增长上行（日本股市教训）。**定投双核制**：工资现金流+定投，双引擎加速。**有恒产者有恒心**：长期持有穿越牛熊。",
+      "scope": "本书数据基于 A 股/港股截至 2017 年的历史回测，收益率（如10%+、盈利收益率法两倍提升）为历史结果，**不代表未来收益**。估值阈值（10%、6.4%）为格雷厄姆基于美国市场的经验值，在A股需结合当下估值与个人情况调整。所有内容为方法讲解，不构成投资建议；市场有风险，投资需谨慎。",
+      "chapterCount": 8,
+      "minutes": 18,
+      "chapters": [
+        {
+          "id": "ch01-beginners",
+          "label": "ch01",
+          "title": "投资新手的建议",
+          "subtitle": "攒资产、长期收益最高资产、风险、指数基金适合上班族",
+          "file": "chapters/ch01-beginners.md",
+          "chars": 681,
+          "minutes": 2
+        },
+        {
+          "id": "ch02-why-index",
+          "label": "ch02",
+          "title": "为什么要选指数基金",
+          "subtitle": "什么是指数、指数基金来历、\"躺着赚钱\"、最适合普通投资者",
+          "file": "chapters/ch02-why-index.md",
+          "chars": 830,
+          "minutes": 2
+        },
+        {
+          "id": "ch03-index-types",
+          "label": "ch03",
+          "title": "常见指数基金品种",
+          "subtitle": "宽基（沪深300/中证500/上证50）、行业（消费/医药/证券/红利）",
+          "file": "chapters/ch03-index-types.md",
+          "chars": 798,
+          "minutes": 2
+        },
+        {
+          "id": "ch04-valuation",
+          "label": "ch04",
+          "title": "如何挑选：估值",
+          "subtitle": "价值投资理念、4估值指标、盈利收益率法、博格公式",
+          "file": "chapters/ch04-valuation.md",
+          "chars": 1136,
+          "minutes": 3
+        },
+        {
+          "id": "ch05-ding-tou",
+          "label": "ch05",
+          "title": "懒人定投法",
+          "subtitle": "定投、结合估值、实操、年复合收益率、5个技巧（定期不定额）",
+          "file": "chapters/ch05-ding-tou.md",
+          "chars": 929,
+          "minutes": 2
+        },
+        {
+          "id": "ch06-build-plan",
+          "label": "ch06",
+          "title": "构建定投计划",
+          "subtitle": "50%定投、三个计划实例、读者案例",
+          "file": "chapters/ch06-build-plan.md",
+          "chars": 728,
+          "minutes": 2
+        },
+        {
+          "id": "ch07-asset-allocation",
+          "label": "ch07",
+          "title": "家庭资产配置",
+          "subtitle": "货币基金、债券基金、分层配置",
+          "file": "chapters/ch07-asset-allocation.md",
+          "chars": 766,
+          "minutes": 2
+        },
+        {
+          "id": "ch08-mindset",
+          "label": "ch08",
+          "title": "长期投资心理建设",
+          "subtitle": "下金蛋的鹅、复利、低估下跌、买国运、双核制、卖出",
+          "file": "chapters/ch08-mindset.md",
+          "chars": 1077,
+          "minutes": 3
+        }
+      ],
+      "topics": [
+        {
+          "name": "价值投资理念",
+          "refs": [
+            "ch04"
+          ],
+          "chapters": [
+            "ch04-valuation"
+          ]
+        },
+        {
+          "name": "估值指标/盈利收益率法/博格公式",
+          "refs": [
+            "ch04"
+          ],
+          "chapters": [
+            "ch04-valuation"
+          ]
+        },
+        {
+          "name": "定投/懒人定投/定期不定额",
+          "refs": [
+            "ch05"
+          ],
+          "chapters": [
+            "ch05-ding-tou"
+          ]
+        },
+        {
+          "name": "指数品种（宽基/行业）",
+          "refs": [
+            "ch03"
+          ],
+          "chapters": [
+            "ch03-index-types"
+          ]
+        },
+        {
+          "name": "定投计划/家庭配置",
+          "refs": [
+            "ch06",
+            "ch07"
+          ],
+          "chapters": [
+            "ch06-build-plan",
+            "ch07-asset-allocation"
+          ]
+        },
+        {
+          "name": "心理建设/卖出",
+          "refs": [
+            "ch08"
+          ],
+          "chapters": [
+            "ch08-mindset"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 968,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 779,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1256,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "xiaodao-jingjixue",
+      "title": "小岛经济学：鱼、美元和经济的故事",
+      "author": "彼得·希夫 / 安德鲁·希夫",
+      "description": "《小岛经济学：鱼、美元和经济的故事》(How An Economy Grows and Why It Crashes) 知识库，作者彼得·希夫、安德鲁·希夫。以寓言讲透奥地利学派经济学：生产与储蓄、货币与通胀、政府干预与信贷泡沫、量化宽松与债务危机。适用于学习/解读经济学原理、分析货币政策与资产泡沫、理解金融危机与政府刺激、参考书中框架作判断。",
+      "category": "经济寓言",
+      "tagline": "鱼、美元与经济周期",
+      "theme": {
+        "from": "#123c4e",
+        "to": "#071f29",
+        "accent": "#f4c453",
+        "glyph": "岛"
+      },
+      "intro": "**1. 生产决定消费（全书总纲）**\n经济增长的引擎是生产，不是消费；消费只是衡量生产的尺度。没有生产就没有东西可消费。用\"找到生产某物的更好方式\"解释一切增长。消费不能长期超过产能，借款不能长期超过存款。\n\n**2. 消费不足 + 冒险 = 资本**\n资本（工具/设备）由\"牺牲当下消费 + 承担失败风险\"创造。储蓄创造资本，资本扩大生产，生产提高生活水平。储蓄起来的一美元对经济的积极影响大于消费掉的一美元。\n\n**3. 储蓄的 5 种处置与贷款三分类**\n存/消费/借/投资/组合，取决于风险偏好。贷款问\"能否扩大产能\"：商业贷款（最佳）放，消费贷款（负担）拒，应急贷款（救命）放。借贷以真实储蓄为前提，\"扩大信贷\"不能凭空造储蓄。\n\n**4. 利率是市场信号，不是政策工具**\n利率由储蓄供给与借贷需求决定，受三大因素驱动（银行利润动机、对高风险损失担忧、消费时间偏好）。美联储操控利率的两大致命缺陷：脱离市场判断 + 政治考量偏袒低利率。低利率刺激借贷、抑制储蓄。\n\n**5. 通胀 = 货币供应量增加（不是价格上涨）**\n价格只是结果。看货币供应判通胀，别被\"物价没涨就没通胀\"骗。通胀把财富从储蓄者转给负债者/政客，受害最深的是退休与固定收入者；抑制储蓄、扭曲投资，终致滞胀。\n\n**6. 通缩是生产率提高的自然结果，不是灾难**\n技术创新单向，价格长期趋降，应鼓励储蓄。妖魔化通缩、为印钞通胀开路，是政治家最爱（通胀=隐性征税、稀释债务）。\n\n**7. 泡沫 = 政策扭曲信贷 + 价格脱离收入与生产**\n政府担保（\"两棚\"=房利美/房地美）让银行几乎无风险放贷→低利率/低标准→价格被推高→被视为\"只赚不亏的投资\"→泡沫膨胀。价格涨幅远超收入与信贷扩张，是泡沫警报；\"价格永不跌\"的集体信念由政客/企业/媒体共谋。\n\n**8. QE/量化宽松 = 印钞的委婉说法 = 债务货币化**\n向金融注入新资金推高价格，制造复苏假象。用汽油救火：越多越旺，一旦依赖就停不下来（QF1→QF2→无限量），\"退出策略\"是不可兑现的谎言。\n\n**9. 政府入不敷出只有四选项**\n增税（抑制生产）/ 削减支出（最好但难）/ 拒债（失信于外国，可清算重来）/ 印钞通胀（最容易却代价最惨，滑向恶性通胀）。法币失去真实支撑终成废纸（德国、匈牙利、津巴布韦先例）。\n\n**10. 储备货币地位与全球失衡**\n储备货币让发钞国\"不储蓄也借贷、不生产也消费\"；美元储备地位+人民币挂钩破坏了贸易逆差自我调节。储蓄国停止购买法币→法币崩溃→恶性通胀，而转向国内生产消费的反而繁荣（\"无鱼不起浪\"）。",
+      "scope": "本 skill 仅覆盖本书内容（奥地利学派视角）。本书立场鲜明（批判凯恩斯主义、政府干预、量化宽松），引用判断时请留意其学派倾向。若要落地到具体投资/政策分析，请结合实时数据与更多来源。全书为寓言式论述，部分历史事件做了艺术化处理（见书\"写在前面\"）。",
+      "chapterCount": 19,
+      "minutes": 53,
+      "chapters": [
+        {
+          "id": "ch01-good-idea",
+          "label": "ch01",
+          "title": "一个好点子出炉了",
+          "subtitle": "消费不足+冒险=资本、资本定义、生产定增长",
+          "file": "chapters/ch01-good-idea.md",
+          "chars": 965,
+          "minutes": 2
+        },
+        {
+          "id": "ch02-sharing-wealth",
+          "label": "ch02",
+          "title": "把财富分享给别人",
+          "subtitle": "储蓄5种处置、金融思维、劳动价值论批判",
+          "file": "chapters/ch02-sharing-wealth.md",
+          "chars": 976,
+          "minutes": 2
+        },
+        {
+          "id": "ch03-credit-uses",
+          "label": "ch03",
+          "title": "信用卡的多种用途",
+          "subtitle": "商业/消费/应急贷款、信贷受储蓄约束",
+          "file": "chapters/ch03-credit-uses.md",
+          "chars": 923,
+          "minutes": 2
+        },
+        {
+          "id": "ch04-how-economy-grows",
+          "label": "ch04",
+          "title": "经济到底是如何发展的",
+          "subtitle": "储蓄=资本=生产扩大、GDP误导、生产定消费",
+          "file": "chapters/ch04-how-economy-grows.md",
+          "chars": 952,
+          "minutes": 2
+        },
+        {
+          "id": "ch05-fish-as-money",
+          "label": "ch05",
+          "title": "在鱼被指定为货币之后",
+          "subtitle": "货币诞生、分工比较优势、通缩有益、最低工资批判",
+          "file": "chapters/ch05-fish-as-money.md",
+          "chars": 1261,
+          "minutes": 3
+        },
+        {
+          "id": "ch06-why-savings",
+          "label": "ch06",
+          "title": "为什么会有储蓄",
+          "subtitle": "银行/利率机制、美联储两缺陷、高风险投资",
+          "file": "chapters/ch06-why-savings.md",
+          "chars": 1144,
+          "minutes": 3
+        },
+        {
+          "id": "ch07-infrastructure-trade",
+          "label": "ch07",
+          "title": "基础设施与贸易",
+          "subtitle": "收益>支出判据、自由贸易、私营vs政府",
+          "file": "chapters/ch07-infrastructure-trade.md",
+          "chars": 1029,
+          "minutes": 3
+        },
+        {
+          "id": "ch08-republic-born",
+          "label": "ch08",
+          "title": "一个共和国就这样诞生了",
+          "subtitle": "限权政府、宪法笼子、自由即风险",
+          "file": "chapters/ch08-republic-born.md",
+          "chars": 919,
+          "minutes": 2
+        },
+        {
+          "id": "ch09-government-shift",
+          "label": "ch09",
+          "title": "政府的职能开始转变了",
+          "subtitle": "政治家公式、法定货币、官鱼、存款保险",
+          "file": "chapters/ch09-government-shift.md",
+          "chars": 1159,
+          "minutes": 3
+        },
+        {
+          "id": "ch10-shrinking-fish",
+          "label": "ch10",
+          "title": "不断缩水的鱼就像货币一样",
+          "subtitle": "通胀正确定义、滞胀、通胀分配效应",
+          "file": "chapters/ch10-shrinking-fish.md",
+          "chars": 1233,
+          "minutes": 3
+        },
+        {
+          "id": "ch11-midland-empire",
+          "label": "ch11",
+          "title": "中岛帝国：远方的生命线",
+          "subtitle": "储备货币、生产国vs消费国、激励",
+          "file": "chapters/ch11-midland-empire.md",
+          "chars": 1186,
+          "minutes": 3
+        },
+        {
+          "id": "ch12-services-rise",
+          "label": "ch12",
+          "title": "服务业是如何崛起的",
+          "subtitle": "消费外包谬论、贸易自我调节、货币战争",
+          "file": "chapters/ch12-services-rise.md",
+          "chars": 1092,
+          "minutes": 3
+        },
+        {
+          "id": "ch13-fish-standard-collapse",
+          "label": "ch13",
+          "title": "\"鱼本位\"的破灭",
+          "subtitle": "金本位破灭、货币价值来源、法定货币",
+          "file": "chapters/ch13-fish-standard-collapse.md",
+          "chars": 1182,
+          "minutes": 3
+        },
+        {
+          "id": "ch14-hut-price-rise",
+          "label": "ch14",
+          "title": "棚屋价格是如何涨上去的",
+          "subtitle": "政府担保、泡沫、道德风险",
+          "file": "chapters/ch14-hut-price-rise.md",
+          "chars": 1299,
+          "minutes": 3
+        },
+        {
+          "id": "ch15-hut-crash",
+          "label": "ch15",
+          "title": "棚屋市场要崩溃了",
+          "subtitle": "泡沫崩溃机制、衰退必要性、救大而不倒",
+          "file": "chapters/ch15-hut-crash.md",
+          "chars": 1294,
+          "minutes": 3
+        },
+        {
+          "id": "ch16-how-bad-got-worse",
+          "label": "ch16",
+          "title": "情形怎么变得如此糟糕",
+          "subtitle": "债务屋顶、刺激批判、还债三选项",
+          "file": "chapters/ch16-how-bad-got-worse.md",
+          "chars": 1269,
+          "minutes": 3
+        },
+        {
+          "id": "ch17-stopgap",
+          "label": "ch17",
+          "title": "缓兵之计",
+          "subtitle": "量化宽松本质、欧债危机、汽油救火",
+          "file": "chapters/ch17-stopgap.md",
+          "chars": 1287,
+          "minutes": 3
+        },
+        {
+          "id": "ch18-occupy-wharf",
+          "label": "ch18",
+          "title": "占领华孚街",
+          "subtitle": "QE依赖、金融实体背离、责任错置",
+          "file": "chapters/ch18-occupy-wharf.md",
+          "chars": 1238,
+          "minutes": 3
+        },
+        {
+          "id": "ch19-no-fish-no-waves",
+          "label": "ch19",
+          "title": "无鱼不起浪",
+          "subtitle": "法币崩溃、恶性通胀、政府四选项",
+          "file": "chapters/ch19-no-fish-no-waves.md",
+          "chars": 1556,
+          "minutes": 4
+        }
+      ],
+      "topics": [
+        {
+          "name": "法定货币/fiat",
+          "refs": [
+            "ch13",
+            "ch19"
+          ],
+          "chapters": [
+            "ch13-fish-standard-collapse",
+            "ch19-no-fish-no-waves"
+          ]
+        },
+        {
+          "name": "储蓄",
+          "refs": [
+            "ch1",
+            "ch4",
+            "ch6"
+          ],
+          "chapters": [
+            "ch01-good-idea",
+            "ch04-how-economy-grows",
+            "ch06-why-savings"
+          ]
+        },
+        {
+          "name": "贷款类型",
+          "refs": [
+            "ch3"
+          ],
+          "chapters": [
+            "ch03-credit-uses"
+          ]
+        },
+        {
+          "name": "利率/美联储",
+          "refs": [
+            "ch6"
+          ],
+          "chapters": [
+            "ch06-why-savings"
+          ]
+        },
+        {
+          "name": "通胀/通缩/滞胀",
+          "refs": [
+            "ch5",
+            "ch10"
+          ],
+          "chapters": [
+            "ch05-fish-as-money",
+            "ch10-shrinking-fish"
+          ]
+        },
+        {
+          "name": "生产vs消费",
+          "refs": [
+            "ch1",
+            "ch4",
+            "ch12",
+            "ch16"
+          ],
+          "chapters": [
+            "ch01-good-idea",
+            "ch04-how-economy-grows",
+            "ch12-services-rise",
+            "ch16-how-bad-got-worse"
+          ]
+        },
+        {
+          "name": "资本/投资",
+          "refs": [
+            "ch1",
+            "ch2",
+            "ch7"
+          ],
+          "chapters": [
+            "ch01-good-idea",
+            "ch02-sharing-wealth",
+            "ch07-infrastructure-trade"
+          ]
+        },
+        {
+          "name": "泡沫/棚屋市场",
+          "refs": [
+            "ch14",
+            "ch15"
+          ],
+          "chapters": [
+            "ch14-hut-price-rise",
+            "ch15-hut-crash"
+          ]
+        },
+        {
+          "name": "量化宽松QE",
+          "refs": [
+            "ch17",
+            "ch18"
+          ],
+          "chapters": [
+            "ch17-stopgap",
+            "ch18-occupy-wharf"
+          ]
+        },
+        {
+          "name": "债务/政府出路",
+          "refs": [
+            "ch16",
+            "ch19"
+          ],
+          "chapters": [
+            "ch16-how-bad-got-worse",
+            "ch19-no-fish-no-waves"
+          ]
+        },
+        {
+          "name": "储备货币/贸易失衡",
+          "refs": [
+            "ch11",
+            "ch12",
+            "ch19"
+          ],
+          "chapters": [
+            "ch11-midland-empire",
+            "ch12-services-rise",
+            "ch19-no-fish-no-waves"
+          ]
+        },
+        {
+          "name": "政府干预/担保",
+          "refs": [
+            "ch3",
+            "ch9",
+            "ch14"
+          ],
+          "chapters": [
+            "ch03-credit-uses",
+            "ch09-government-shift",
+            "ch14-hut-price-rise"
+          ]
+        },
+        {
+          "name": "货币崩溃/恶性通胀",
+          "refs": [
+            "ch13",
+            "ch19"
+          ],
+          "chapters": [
+            "ch13-fish-standard-collapse",
+            "ch19-no-fish-no-waves"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 1028,
+          "minutes": 3
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 1394,
+          "minutes": 3
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1595,
+          "minutes": 4
+        }
+      ]
+    },
+    {
+      "slug": "xiaogou-qianqian",
+      "title": "小狗钱钱（全2册）",
+      "author": "博多·舍费尔（德国）",
+      "description": "《小狗钱钱》(博多·舍费尔) 理财+品格启蒙知识库，全2册。钱钱1：理财童话——梦想清单/储蓄罐/成功日记、挣钱之道、债务4忠告、鹅与金蛋（储蓄）、投资三原则、股票基金、复利。钱钱2：品格教育——甜甜圈理论、7条准则（友好亲和/勇于承担/善待他人/帮助给予/感恩之心/勤学不辍/值得信赖）。适用于个人理财入门、亲子财商教育、品格修炼。",
+      "category": "财商启蒙",
+      "tagline": "鹅与金蛋的理财童话",
+      "theme": {
+        "from": "#b85c38",
+        "to": "#7a3520",
+        "accent": "#ffdf9e",
+        "glyph": "钱"
+      },
+      "intro": "**1. 确立目标：愿望清单 → 梦想储蓄罐 → 梦想相册**\n写下10个愿望，划掉不重要者，确定最重要目标。为梦想准备**梦想储蓄罐**（专款专用）与**梦想相册**（可视化目标，每日看、想象实现）。目标越具体，越能驱动行动。定下大目标时\"疯狂的念头\"比普通小目标更易实现——但需付出更多努力。\n\n**2. 成功日记（建立自信）**\n每天写下5件成功的事。自信是理财与行动的关键因素：你能否挣到钱，不取决于你有多聪明/知道多少，而取决于**你的自信程度**。成功日记强化自信，促使收入与能力不断增长。\n\n**3. 挣钱之道：为别人解决难题 + 关注自己所能**\n两个建议：①**为别人解决一个难题**，就能挣到钱；②把精力集中在**你知道的、能做的和拥有的东西上**（而不是做不到的）。从自己喜欢且擅长的事出发（如吉娅遛狗）。\n\n**4. 处理债务的4个忠告**\n①**毁掉信用卡**；②在许可范围内**按最低分期付款**支付；③**消费贷款不明智**——将扣除生活费后剩下的钱的一半存起来、一半还贷（最好根本不申请消费贷款）；④花钱前问\"**这真的有必要吗？**\"。量入为出：支出往往随收入增长，除非学会合理分配。\n\n**5. 鹅与金蛋（储蓄/量入为出）**\n鹅=你的本金，金蛋=利息。\"**不要杀死你的鹅**\"——不要花光本金，让它持续下金蛋（利息）。把收入合理分配：如金先生**50%养鹅、40%梦想储蓄罐、10%零花**（比例按目标调整）。靠利息生活需要的本金比你想象得少。\n\n**6. 投资三原则（安全 · 收益 · 简单）**\n①**应该把钱投资在安全的地方**；②**我的钱应该下很多\"金蛋\"**（收益）；③**投资应该简单明了**。\n\n**7. 股票与基金（长期投资）**\n股票=你持有的公司份额，收益来自公司盈利（分红+股价）。**股票基金**：把钱交给基金经理买多只股票，**分散风险**。挑选基金注意事项：选择**大型跨国股票基金**（分散风险）、比较**过去10年走势**选利润最好且平稳者。基金适合长期（多数股票长期能获丰厚利润），用不急用的钱投。**复利（利滚利）**让钱增长。\n\n**8. 甜甜圈理论：品格是核心**\n甜甜圈的外圈=金钱/外在（理财很重要），但**内圈（品格）才是核心**——没有内圈，外圈只是一个空洞。品格修炼比金钱更根本。\n\n**9. 7条准则（品格修炼）**\n1. **友好亲和**：愿他人生活美好幸福；不伤害任何人、不介入争端（\"愤怒和仇恨，我们不接受就仍属对方\"）；谦虚有礼、尊重他人、承认并非永远正确。\n2. **勇于承担**：遇事自我抉择；不受不公平影响，专注能做/知道/拥有的；把责任推给别人=把权利也交给对方。\n3. **善待他人**：只称赞他人、无法称赞就不说；尽量不批评，不得不批评也用礼貌方式；聚焦他人优点闪光点。\n4. **帮助给予**：祝愿所有人顺利；送礼物表达好感；最美好之事是帮助他人（\"帮助他人能给自己带来快乐\"）。\n5. **感恩之心**：对看似寻常的事心怀感恩；困难中也关注值得感激之物；\"幸福之人的秘密=有能力辨别奇迹发生的时刻并感激\"。\n6. **勤学不辍**：骄傲自满=不必再学；阅读好书、写成功日记/知识笔记、向他人学习；不与他人比较，尽己所能做到最好。\n7. **值得信赖**：成功取决于自身习惯；自律者比天赋懒惰者更成功；守时、信守承诺（**巨人vs侏儒**：信守计划的是巨人，引诱打破的是侏儒）。",
+      "scope": "本书为理财童话（钱钱1）与品格教育童话（钱钱2），适合青少年财商启蒙，也适合成年人建立基础理财观。具体收益率（如12%）、比例（50/40/10）为书中示例，现实中收益率因市场而异，投资须结合实际风险。品格准则为普适价值教育。不构成专业投资建议。",
+      "chapterCount": 8,
+      "minutes": 17,
+      "chapters": [
+        {
+          "id": "money1-goals-earning",
+          "label": "钱钱1-1~3",
+          "title": "白色拉布拉多犬、梦想储蓄罐和相册、达瑞挣钱",
+          "subtitle": "目标、储蓄罐、成功日记、挣钱之道",
+          "file": "chapters/money1-goals-earning.md",
+          "chars": 785,
+          "minutes": 2
+        },
+        {
+          "id": "money1-earn-debt",
+          "label": "钱钱1-4~6",
+          "title": "堂兄挣钱、钱钱主人、爸爸妈妈的错误",
+          "subtitle": "关注所能、债务4忠告、量入为出",
+          "file": "chapters/money1-earn-debt.md",
+          "chars": 768,
+          "minutes": 2
+        },
+        {
+          "id": "money1-goose",
+          "label": "钱钱1-7~8",
+          "title": "在金先生家、陶穆太太",
+          "subtitle": "鹅与金蛋、储蓄分配、投资准备",
+          "file": "chapters/money1-goose.md",
+          "chars": 819,
+          "minutes": 2
+        },
+        {
+          "id": "money1-crisis",
+          "label": "钱钱1-9~13",
+          "title": "冒险、地下室、不明白、陶穆归来、巨大危机",
+          "subtitle": "应用、坚持、应对危机",
+          "file": "chapters/money1-crisis.md",
+          "chars": 713,
+          "minutes": 2
+        },
+        {
+          "id": "money1-invest",
+          "label": "钱钱1-14~18",
+          "title": "投资俱乐部、演讲、投资行动、爷爷奶奶怕风险、结局",
+          "subtitle": "投资三原则、股票基金、复利",
+          "file": "chapters/money1-invest.md",
+          "chars": 964,
+          "minutes": 2
+        },
+        {
+          "id": "money2-character",
+          "label": "钱钱2-1~7",
+          "title": "奖学金、白色石头、放大镜、论文、加利福尼亚、寄宿学校、好老师",
+          "subtitle": "甜甜圈理论、品格启蒙",
+          "file": "chapters/money2-character.md",
+          "chars": 729,
+          "minutes": 2
+        },
+        {
+          "id": "money2-7rules",
+          "label": "钱钱2-8~10",
+          "title": "危险、好老师的秘密、7条准则",
+          "subtitle": "7条准则、演讲技巧",
+          "file": "chapters/money2-7rules.md",
+          "chars": 1204,
+          "minutes": 3
+        },
+        {
+          "id": "money2-practice",
+          "label": "钱钱2-11~14",
+          "title": "演讲比赛、事件、回家、道别",
+          "subtitle": "实践准则、成长",
+          "file": "chapters/money2-practice.md",
+          "chars": 643,
+          "minutes": 2
+        }
+      ],
+      "topics": [
+        {
+          "name": "目标/储蓄罐/成功日记",
+          "refs": [
+            "钱钱1-1~3"
+          ],
+          "chapters": [
+            "money1-goals-earning"
+          ]
+        },
+        {
+          "name": "挣钱之道",
+          "refs": [
+            "钱钱1-3~4"
+          ],
+          "chapters": [
+            "money1-goals-earning",
+            "money1-earn-debt"
+          ]
+        },
+        {
+          "name": "债务处理/量入为出",
+          "refs": [
+            "钱钱1-6"
+          ],
+          "chapters": [
+            "money1-earn-debt"
+          ]
+        },
+        {
+          "name": "鹅与金蛋/储蓄",
+          "refs": [
+            "钱钱1-7"
+          ],
+          "chapters": [
+            "money1-goose"
+          ]
+        },
+        {
+          "name": "投资三原则/股票基金/复利",
+          "refs": [
+            "钱钱1-14~16"
+          ],
+          "chapters": [
+            "money1-invest"
+          ]
+        },
+        {
+          "name": "甜甜圈理论",
+          "refs": [
+            "钱钱2"
+          ],
+          "chapters": [
+            "money2-character",
+            "money2-7rules",
+            "money2-practice"
+          ]
+        },
+        {
+          "name": "7条准则",
+          "refs": [
+            "钱钱2-10"
+          ],
+          "chapters": [
+            "money2-7rules"
+          ]
+        },
+        {
+          "name": "演讲技巧",
+          "refs": [
+            "钱钱2-10~11"
+          ],
+          "chapters": [
+            "money2-7rules",
+            "money2-practice"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 834,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 691,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1189,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "qiongchali-baodian",
+      "title": "穷查理宝典：芒格智慧箴言与私人书单",
+      "author": "查理·芒格（美国）",
+      "description": "《穷查理宝典》(查理·芒格) 智慧知识库。核心是跨学科的普世智慧与多元思维模型、逆向思维（反过来想）、人类误判心理学（25种心理倾向）、检查清单与避免愚蠢、价值投资（能力圈/安全边际/长期持有）、处世智慧（配得上、终身学习、道德）。适用于投资决策、思维训练、心理学防误判、人生与职业决策。",
+      "category": "思维模型",
+      "tagline": "多元思维与误判心理学",
+      "theme": {
+        "from": "#4c2029",
+        "to": "#241014",
+        "accent": "#e2b77a",
+        "glyph": "芒"
+      },
+      "intro": "**1. 多元思维模型 / 普世智慧（全书总纲）**\n必须知道重要学科（物理、生物、心理、经济、数学等）的重要理论，并经常使用它们——要全部用上，而不是只用几种。\"在手里拿着铁锤的人看来，世界就像一颗钉子。\"跨学科方法是\"发明了发明的方法\"\"学习了学习的方法\"。真正重要的大道理占每个学科的95%，从所有学科吸取所需知识并变成思维习惯并不难。\n\n**2. 逆向思维（反过来想）**\n雅各比：\"反过来想，总是反过来想。\"复杂系统与大脑问题逆向思考往往更容易解决。乡下人：\"要知道我会死在哪里就好啦，我将永远不去那个地方。\"芒格得到正确判断的办法：先收集各种错误判断的例子，再考虑怎样避免这些下场。铁律：**要得到你想要的，最可靠的办法是让你自己配得上它**。\n\n**3. 人类误判心理学（25 种心理倾向）**\n芒格自学建立的心理学体系：人的心理倾向为数众多且相互影响（产生 lollapalooza 效应），受进化遗传程序驱动。核心：**激励机制引起的偏见**（奖励惩罚超级反应）是造成愚蠢行为的最重要原因。其他倾向：喜欢热爱、讨厌憎恨、避免怀疑、避免不一致、好奇心、受简单联想影响、避免痛苦否认、自视过高、过度乐观、被剥夺超级反应、社会认同、对比错误反应、压力影响、错误衡量易得性、不用就忘、权威错误影响、重视理由、废话倾向、康德式公平、艳羡妒忌、回馈倾向、化学物质/衰老/错误影响等。\n\n**4. 检查清单 & 避免愚蠢**\n把著名失败案例排列成\"正确决策的检查清单\"，避免自己犯同样的错。**重要决策前过一遍清单**，比追求聪明更能避免灾难。拥有常识（常识别）意味着能辨认智慧也能拒绝愚蠢；不自欺的精神是能拥有的最好精神（凯恩斯：介绍新观念不难，难的是清除旧观念）。\n\n**5. 价值投资（能力圈 / 安全边际 / 长期持有）**\n只在自己的能力圈内投资；安全边际是抵御错误与不确定性的护城河。看好的企业买入并\"持有十年\"——如果你没做好持有一只股票十年的准备，一开始就不该买。伯克希尔的启示：拥有许多不断产生现金的优秀企业，长期业绩杰出。关于伯克希尔继任：\"从前那种增长速度将会下降，我们可不想在这个问题上说谎。\"\n\n**6. 处世智慧（如何获得精彩人生）**\n几个\"屡试不爽\"的道理：①让自己配得上想要的东西（黄金法则、己所不欲勿施于人）；②正确的爱以仰慕为基础，爱有教育意义的先贤（毛姆《人生的枷锁》中的爱是病态的）；③获得智慧是一种道德责任，必须终身学习——伯克希尔巴菲特\"醒着的一半时间在看书\"，是\"学习机器\"，每天睡觉都比早晨聪明一点点；④跨学科方法，避免\"法律头脑\"单一学科的愚蠢；⑤谨慎隐藏你的睿智（让客户/上级觉得他们是房间里最聪明的人），别让正确得罪有地位的人。\n\n**7. 终身学习 & 私人书单**\n坚持阅读，向伟人学习（富兰克林、西塞罗、孔子）。掌握知识要在头脑中形成\"思维框架\"，自动运用而非死记硬背应付考试。私人书单分自然、人类、经济、投资、人生、处世六辑，共推荐 40 本书，勾勒知识版图。",
+      "scope": "本书为查理·芒格演讲、箴言与推荐书单的合集（珍藏本版），观点是芒格个人长期实践总结，非学术教科书。\"人类误判心理学\"是芒格基于经验与西奥迪尼《影响力》等自学建构的体系，部分倾向命名为其独创。引用时留意其个人视角。投资观点不构成投资建议。",
+      "chapterCount": 8,
+      "minutes": 19,
+      "chapters": [
+        {
+          "id": "ch01-mental-models",
+          "label": "ch01",
+          "title": "普世智慧与多元思维模型",
+          "subtitle": "跨学科、铁锤人谚语、不自欺、常识、学科割据致命",
+          "file": "chapters/ch01-mental-models.md",
+          "chars": 961,
+          "minutes": 2
+        },
+        {
+          "id": "ch02-inversion",
+          "label": "ch02",
+          "title": "逆向思维",
+          "subtitle": "反过来想、先收集错误再避免、配得上原则",
+          "file": "chapters/ch02-inversion.md",
+          "chars": 814,
+          "minutes": 2
+        },
+        {
+          "id": "ch03-misjudgment-1",
+          "label": "ch03",
+          "title": "人类误判心理学（上）",
+          "subtitle": "心理倾向相互交织、激励偏见、社会认同、西奥迪尼影响力",
+          "file": "chapters/ch03-misjudgment-1.md",
+          "chars": 1011,
+          "minutes": 3
+        },
+        {
+          "id": "ch04-misjudgment-2",
+          "label": "ch04",
+          "title": "人类误判心理学（下）",
+          "subtitle": "避免不一致、自视过高、被剥夺超级反应、避免痛苦否认、lollapalooza",
+          "file": "chapters/ch04-misjudgment-2.md",
+          "chars": 1018,
+          "minutes": 3
+        },
+        {
+          "id": "ch05-checklists",
+          "label": "ch05",
+          "title": "检查清单与避免愚蠢",
+          "subtitle": "决策清单、能力圈、安全边际、常识与不自欺",
+          "file": "chapters/ch05-checklists.md",
+          "chars": 818,
+          "minutes": 2
+        },
+        {
+          "id": "ch06-investing",
+          "label": "ch06",
+          "title": "价值投资",
+          "subtitle": "能力圈、安全边际、长期持有、优秀企业",
+          "file": "chapters/ch06-investing.md",
+          "chars": 831,
+          "minutes": 2
+        },
+        {
+          "id": "ch07-wonderful-life",
+          "label": "ch07",
+          "title": "如何获得精彩人生",
+          "subtitle": "配得上、爱先贤、道德责任、终身学习、隐藏睿智",
+          "file": "chapters/ch07-wonderful-life.md",
+          "chars": 1021,
+          "minutes": 3
+        },
+        {
+          "id": "ch08-reading-booklist",
+          "label": "ch08",
+          "title": "读书与私人书单",
+          "subtitle": "思维框架、六辑书单、向伟人学习",
+          "file": "chapters/ch08-reading-booklist.md",
+          "chars": 990,
+          "minutes": 2
+        }
+      ],
+      "topics": [
+        {
+          "name": "多元思维模型/普世智慧",
+          "refs": [
+            "ch01",
+            "ch07"
+          ],
+          "chapters": [
+            "ch01-mental-models",
+            "ch07-wonderful-life"
+          ]
+        },
+        {
+          "name": "逆向思维",
+          "refs": [
+            "ch02"
+          ],
+          "chapters": [
+            "ch02-inversion"
+          ]
+        },
+        {
+          "name": "人类误判心理学/心理倾向",
+          "refs": [
+            "ch03",
+            "ch04"
+          ],
+          "chapters": [
+            "ch03-misjudgment-1",
+            "ch04-misjudgment-2"
+          ]
+        },
+        {
+          "name": "检查清单/避免愚蠢",
+          "refs": [
+            "ch05"
+          ],
+          "chapters": [
+            "ch05-checklists"
+          ]
+        },
+        {
+          "name": "能力圈/安全边际/长期持有",
+          "refs": [
+            "ch05",
+            "ch06"
+          ],
+          "chapters": [
+            "ch05-checklists",
+            "ch06-investing"
+          ]
+        },
+        {
+          "name": "价值投资/优秀企业",
+          "refs": [
+            "ch06"
+          ],
+          "chapters": [
+            "ch06-investing"
+          ]
+        },
+        {
+          "name": "处世智慧/终身学习",
+          "refs": [
+            "ch07"
+          ],
+          "chapters": [
+            "ch07-wonderful-life"
+          ]
+        },
+        {
+          "name": "私人书单/阅读",
+          "refs": [
+            "ch08"
+          ],
+          "chapters": [
+            "ch08-reading-booklist"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 769,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 813,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1227,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "fan-cuiruo",
+      "title": "反脆弱：从无序中受益",
+      "author": "纳西姆·尼古拉斯·塔勒布（美国）",
+      "description": "《反脆弱》(纳西姆·塔勒布) 决策知识库。核心：反脆弱性（从波动、混乱、压力中受益，超越强韧性）、三元结构（脆弱-强韧-反脆弱）、杠铃策略、基础不对称性测试、非预测性世界观、塞内加斯多葛、林迪效应、否定法、凸性、可选择性、切身利害。适用于不确定性决策、风险管理、投资、职业与人生设计。",
+      "category": "决策哲学",
+      "tagline": "从波动与混乱中受益",
+      "theme": {
+        "from": "#3b2f2a",
+        "to": "#171310",
+        "accent": "#e76f51",
+        "glyph": "反"
+      },
+      "intro": "**1. 反脆弱性（antifragile）定义（全书基石）**\n有些事情能从冲击中受益，当暴露在波动性、随机性、混乱、压力、风险和不确定性下时反而茁壮成长。它超越复原力/强韧性：**强韧是抵抗冲击保持原状，反脆弱是从冲击中变得更好**。它决定了有生命的有机体/复杂体与无生命机械体的区别。\"风会熄灭蜡烛，却能使火越烧越旺\"——你要成为火，渴望风的吹拂。\n\n**2. 三元结构 & 基础不对称性测试**\n脆弱类–强韧类–反脆弱类，好比达摩克利斯（脆弱）、凤凰（强韧）、九头蛇怪（反脆弱）。**不对称测试**：从随机事件/冲击中获得的有利结果大于不利结果=反脆弱；反之=脆弱。脆弱性=失去的比得到的多=不利不对称；反脆弱=得到的比失去的多=有利不对称。**识别脆弱比预测事件容易得多**——脆弱性可衡量，风险（尤其罕见事件）不可衡量。\n\n**3. 杠铃策略（双峰策略）**\n对不确定性的所有解决方案都以杠铃形式呈现：由两个极端组成、摈弃模棱两可的中间。如90%资金极度保守（现金/保值）+10%极高风险——最大损失已知（10%）、收益无上限。中间风险态度是骗人的把戏（受巨大测量误差影响）。例：作家谋一份稳定闲职+业余自由写作；先做安全工作再转投机性职业。\n\n**4. 非预测性世界观（黑天鹅的解决方案）**\n弄清楚什么脆弱，比预测伤害性事件是否发生容易。我们无法计算/预测罕见事件风险，但**事物对波动性所致危害的敏感性是可观察的**——颠覆预测、预言、风险管理方法。预测者往往因\"预测误差\"而脆弱；识别脆弱、在脆弱事物的崩溃上下注（胖子托尼模型）反而获得反脆弱。\n\n**5. 剥夺反脆弱性（压制波动=伤害系统）**\n反脆弱性是幸存自然/复杂系统的特征，**剥夺它们的波动、随机、压力源反而伤害它们**（肌肉卧床萎缩、经济被过度干预削弱）。自上而下的\"苏联-哈佛派谬见\"正伤害系统；一切自下而上在适量压力下蓬勃发展。天真的干预造成医源性损伤（现代化最易被忽视的产物）。\n\n**6. 塞内加 / 斯多葛的不对称性**\n塞内加解决反脆弱：**保留好的、剔除坏的；摈弃不利、留住有利**（成本效益/道德式记账\"一无所失\"）。斯多葛主义=情绪的驯化而非消除：将恐惧转谨慎、痛苦转信息、错误转启示、欲望转事业。财富是聪明人的奴仆、愚笨者的主人——爱财富却不被其伤害。\n\n**7. 林迪效应（旧事物长寿）**\n旧事物的预期剩余寿命与它已存活的寿命成正比——能活300年的东西会再活300年。时间是最可靠的过滤器：经得起时间考验的（技术、制度、公司）更反脆弱。通过**否定法**（知道不该做什么）展望未来，优于预测。\n\n**8. 凸性 / 可选择性**\n凸性=从波动中受益（收益随波动放大，如期权）；凹性=受波动伤害。成长与创新靠不对称回报与自由探索（试错），而非正规设计与预测。**可选择性**允许你不知道结果也能受益（泰勒斯橄榄压榨机期权）。医源性损伤、切身利害（skin in the game）：别以牺牲他人的脆弱为代价获得自己的反脆弱。",
+      "scope": "本书为塔勒布的哲学性著作，观点激进、大量使用寓言与历史例证，非学术教科书，个别历史叙述被作者艺术化。核心框架（反脆弱、杠铃、非预测性、林迪效应）被广泛引用，但\"识别脆弱而非预测\"等方法偏定性。涉及医疗（如医源性损伤）与投资的观点，落地时需结合专业意见与实证。",
+      "chapterCount": 7,
+      "minutes": 15,
+      "chapters": [
+        {
+          "id": "v1-antifragile-intro",
+          "label": "卷1",
+          "title": "1-4章 达摩克利斯之剑和九头蛇怪、过度补偿、猫与洗衣机、整体反脆弱依赖局部脆弱",
+          "subtitle": "反脆弱定义、三元结构、有机体vs机械体",
+          "file": "chapters/v1-antifragile-intro.md",
+          "chars": 975,
+          "minutes": 2
+        },
+        {
+          "id": "v2-modernity-denial",
+          "label": "卷2",
+          "title": "5-8章 露天市场与办公楼、告诉他们我爱随机性、天真的干预、预测是现代化的产物",
+          "subtitle": "平均斯坦/极端斯坦、医源性损伤、压制波动伤害",
+          "file": "chapters/v2-modernity-denial.md",
+          "chars": 919,
+          "minutes": 2
+        },
+        {
+          "id": "v3-nonpredictive",
+          "label": "卷3",
+          "title": "9-11章 胖子托尼与脆弱推手、塞内加的不利与有利因素、千万别嫁给摇滚明星",
+          "subtitle": "识别脆弱、不对称性、杠铃策略",
+          "file": "chapters/v3-nonpredictive.md",
+          "chars": 1087,
+          "minutes": 3
+        },
+        {
+          "id": "v4-optionality",
+          "label": "卷4",
+          "title": "12-17章 泰勒斯的甜葡萄、教鸟儿飞行、两件事不是同一回事、失败者撰写的历史、混乱中的秩序、胖子托尼与苏格拉底",
+          "subtitle": "可选择性、试错、自由探索优于设计",
+          "file": "chapters/v4-optionality.md",
+          "chars": 958,
+          "minutes": 2
+        },
+        {
+          "id": "v5-nonlinearity",
+          "label": "卷5",
+          "title": "18-19章 大石头与小石子、炼金石",
+          "subtitle": "凸性/凹性、规模脆弱、启发法、房利美破产",
+          "file": "chapters/v5-nonlinearity.md",
+          "chars": 915,
+          "minutes": 2
+        },
+        {
+          "id": "v6-negativa",
+          "label": "卷6",
+          "title": "20-22章 时间与脆弱性、医疗凸性和不透明、活得长寿但不要太长",
+          "subtitle": "林迪效应、否定法、减法医疗",
+          "file": "chapters/v6-negativa.md",
+          "chars": 928,
+          "minutes": 2
+        },
+        {
+          "id": "v7-ethics",
+          "label": "卷7",
+          "title": "23-25章 切身利害、给职业戴伦理光环、结语",
+          "subtitle": "代理问题、skin in the game、伦理倒置",
+          "file": "chapters/v7-ethics.md",
+          "chars": 963,
+          "minutes": 2
+        }
+      ],
+      "topics": [
+        {
+          "name": "反脆弱性/三元结构",
+          "refs": [
+            "v1"
+          ],
+          "chapters": [
+            "v1-antifragile-intro"
+          ]
+        },
+        {
+          "name": "杠铃策略",
+          "refs": [
+            "v3"
+          ],
+          "chapters": [
+            "v3-nonpredictive"
+          ]
+        },
+        {
+          "name": "不对称性测试",
+          "refs": [
+            "v1",
+            "v3"
+          ],
+          "chapters": [
+            "v1-antifragile-intro",
+            "v3-nonpredictive"
+          ]
+        },
+        {
+          "name": "非预测性/识别脆弱",
+          "refs": [
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "chapters": [
+            "v1-antifragile-intro",
+            "v2-modernity-denial",
+            "v3-nonpredictive"
+          ]
+        },
+        {
+          "name": "医源性损伤/天真干预",
+          "refs": [
+            "v2"
+          ],
+          "chapters": [
+            "v2-modernity-denial"
+          ]
+        },
+        {
+          "name": "可选择性/试错",
+          "refs": [
+            "v4"
+          ],
+          "chapters": [
+            "v4-optionality"
+          ]
+        },
+        {
+          "name": "凸性/凹性/非线性",
+          "refs": [
+            "v5"
+          ],
+          "chapters": [
+            "v5-nonlinearity"
+          ]
+        },
+        {
+          "name": "林迪效应/否定法",
+          "refs": [
+            "v6"
+          ],
+          "chapters": [
+            "v6-negativa"
+          ]
+        },
+        {
+          "name": "切身利害/代理问题",
+          "refs": [
+            "v7"
+          ],
+          "chapters": [
+            "v7-ethics"
+          ]
+        },
+        {
+          "name": "黑天鹅解决方案",
+          "refs": [
+            "v1",
+            "v3"
+          ],
+          "chapters": [
+            "v1-antifragile-intro",
+            "v3-nonpredictive"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 847,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 812,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1329,
+          "minutes": 3
+        }
+      ]
+    },
+    {
+      "slug": "yanchi-manzu",
+      "title": "延迟满足：如何用长期主义实现目标",
+      "author": "三谷淳（日本）",
+      "description": "《延迟满足》(三谷淳) 目标达成方法论知识库。核心是三步法：乐观地构思目标、悲观地制订计划、乐观地实施（稻盛和夫哲学），辅以学习区/维持现状偏差、结果倒推法、PDCA数字化诊断、公开目标、团队领导等。适用于个人目标管理、销售/业绩达成、团队目标设定与激励、职场执行力提升。",
+      "category": "目标管理",
+      "tagline": "乐观构思，悲观计划，乐观执行",
+      "theme": {
+        "from": "#2a3452",
+        "to": "#131a2e",
+        "accent": "#c7d36b",
+        "glyph": "迟"
+      },
+      "intro": "**1. 三步法（全书总纲）**\n实现目标=①设立目标→②制订计划→③实施计划。用稻盛和夫的\"乐观地构思，悲观地计划，乐观地实施\"对应三步：设目标要乐观（设想一定能做到）、订计划要悲观（设想所有意外）、执行要乐观（相信自己能做到）。过去的失败必是某一步出了问题，先定位在哪一步栽跟头。\n\n**2. 三区理论：待在学习区**\n人对世界的认知分三区：舒适区（得心应手）、学习区（踏出一步、适当压力）、恐慌区（不堪重负）。**实现目标的关键是持续待在学习区**：舒适区让人懈怠，恐慌区让思维停滞，学习区激发潜能。设的目标要高到\"连自己也怀疑能否完成\"，但又不至于恐慌。\n\n**3. 跨越\"维持现状偏差\"**\n维持现状偏差是人类规避变化的心理本能，会把人拖回舒适区，是实现目标的最大障碍（表现为\"做不到的事做了很多、做得到的事不去做\"）。跨越技巧：公开说出目标、结伴/群组实现、把行动计划也公开。\n\n**4. 结果倒推法（逆向推导）**\n制订计划从两方面彻底倒推：①时间上——从最终期限反推中间目标（3个月减5kg→前2月减4kg→第1月减2kg→第一周读卡路里书）；②领域上——把目标拆成可量化的具体子目标（日减200卡/日多消耗300卡）。中间目标是倒推的根本，是逐个跨越的里程碑。\n\n**5. 计划行动，而非计划结果**\n结果往往不受自己控制（客户买不买、能否签合同），但行动是可控的。实施时把重心放在\"一定能做到的行动\"上（每月交换20张名片、每周推荐3人），从简单、不会失败的事开始，积累成功体验。\n\n**6. PDCA 数字化诊断**\n进展不顺时别靠感觉，把**期待结果与实际结果都数字化**，逐环节对比定位瓶颈（例：计划研讨会出席率60%实际40%→对策：邀约人数50→70、寄邀请函、锤炼话术）。无法完成中间目标只有两种情况：①做了但没达标→跑PDCA、不轻易改目标；②无法执行→重新回到起点、必要时下调目标数值或延长期限。\n\n**7. 行动维持热情，不是热情推动行动**\n不是等有热情才行动，而是靠速度与行动量维持热情。进展不顺时**量先于质**：增加自己可控制的行动量（失败的销售员改数\"被拒绝次数\"）。成功的反面不是失败，而是不行动；\"影响偏差\"使人对已发生的不利后果的痛感远小于想象，行动了就不会后悔，没行动才后悔。\n\n**8. 公开目标 & 跨越初始 5%**\n写下来并公开目标（7 项清单：目标/期限到星期/为你高兴的人/里程碑/行动计划/不做的事/公开）。新习惯要经历\"兴奋→压力(第3天)→驯化(第7天)→习惯(第14天)\"，最初的障碍出现在完成期约 5% 时，熬过最初一周是关键；把已做的行动计划也公开能形成报告压力。\n\n**9. 团队目标：自上而下 × 自下而上**\n团队目标要\"令全体跃跃欲试\"，自上而下(易设高目标但像强加)与自下而上(有主人翁感但目标偏低)结合，往返磋商到一致；领导必须讲清\"为什么是这个目标\"(对成员/公司/客户或社会的意义)。目标期限确定(如年度销售)最晚提前3个月开始讨论。\n\n**10. 可信赖领导 & 积极性的5件小事**\n深得信任的领导5共同点：细心倾听、言行一致、常表感谢、一心为公(动机至善摒弃私心)、善于引咎自责(功劳归团队、责任自己扛)。提高积极性5件小事：赞美员工、关注过程、告知理由、授权赋能、共享成果。传达任务时结合头衔与期待、说明分派职务的理由。",
+      "scope": "本书为日本商务目标管理方法，逻辑清晰但偏经验总结，非学术实证。可结合 PDCA、目标管理(MBO/OKR)、行为心理学应用。核心观点\"乐观构思/悲观计划/乐观实施\"源自稻盛和夫京瓷哲学。",
+      "chapterCount": 6,
+      "minutes": 15,
+      "chapters": [
+        {
+          "id": "ch01-long-term-goals",
+          "label": "ch01",
+          "title": "瞄准长线收益目标",
+          "subtitle": "三步法、乐观构思悲观计划乐观实施、学习区、维持现状偏差、行动vs结果",
+          "file": "chapters/ch01-long-term-goals.md",
+          "chars": 971,
+          "minutes": 2
+        },
+        {
+          "id": "ch02-narrow-gate",
+          "label": "ch02",
+          "title": "敢进窄门，愿走远路",
+          "subtitle": "设定跃跃欲试的目标、与他人商谈、目标vs梦想、期限到星期、延迟满足同伴",
+          "file": "chapters/ch02-narrow-gate.md",
+          "chars": 849,
+          "minutes": 2
+        },
+        {
+          "id": "ch03-backward-planning",
+          "label": "ch03",
+          "title": "用结果倒推法让每一步清晰可见",
+          "subtitle": "中间目标、时间与领域双倒推、计划行动非结果、方案B、要有所不为、公开目标",
+          "file": "chapters/ch03-backward-planning.md",
+          "chars": 999,
+          "minutes": 2
+        },
+        {
+          "id": "ch04-long-term-value",
+          "label": "ch04",
+          "title": "静下心来做有长期价值的事",
+          "subtitle": "从易到难(先买鞋)、一周/两周习惯期、量先于质、PDCA数字化诊断、调整中间策略",
+          "file": "chapters/ch04-long-term-value.md",
+          "chars": 1207,
+          "minutes": 3
+        },
+        {
+          "id": "ch05-immediate-gratification",
+          "label": "ch05",
+          "title": "放弃即时满足，展示自我控制能力",
+          "subtitle": "行动维持热情、把欲望变能力、优秀催生优秀、达成之脑、成长要冒险",
+          "file": "chapters/ch05-immediate-gratification.md",
+          "chars": 1029,
+          "minutes": 3
+        },
+        {
+          "id": "ch06-team-goals",
+          "label": "ch06",
+          "title": "一边努力一边等待",
+          "subtitle": "团队目标三步、自上而下×自下而上、传达为什么与期待、信任5原则、积极性5件小事",
+          "file": "chapters/ch06-team-goals.md",
+          "chars": 1296,
+          "minutes": 3
+        }
+      ],
+      "topics": [
+        {
+          "name": "三步法/乐观构思悲观计划乐观实施",
+          "refs": [
+            "ch01"
+          ],
+          "chapters": [
+            "ch01-long-term-goals"
+          ]
+        },
+        {
+          "name": "学习区/舒适区/恐慌区",
+          "refs": [
+            "ch01"
+          ],
+          "chapters": [
+            "ch01-long-term-goals"
+          ]
+        },
+        {
+          "name": "维持现状偏差",
+          "refs": [
+            "ch01",
+            "ch03"
+          ],
+          "chapters": [
+            "ch01-long-term-goals",
+            "ch03-backward-planning"
+          ]
+        },
+        {
+          "name": "结果倒推法/中间目标",
+          "refs": [
+            "ch03"
+          ],
+          "chapters": [
+            "ch03-backward-planning"
+          ]
+        },
+        {
+          "name": "计划行动非结果/可控行动",
+          "refs": [
+            "ch01",
+            "ch03"
+          ],
+          "chapters": [
+            "ch01-long-term-goals",
+            "ch03-backward-planning"
+          ]
+        },
+        {
+          "name": "PDCA/数字化诊断",
+          "refs": [
+            "ch04"
+          ],
+          "chapters": [
+            "ch04-long-term-value"
+          ]
+        },
+        {
+          "name": "量先于质/行动维持热情",
+          "refs": [
+            "ch04",
+            "ch05"
+          ],
+          "chapters": [
+            "ch04-long-term-value",
+            "ch05-immediate-gratification"
+          ]
+        },
+        {
+          "name": "公开目标/5%障碍",
+          "refs": [
+            "ch02",
+            "ch03",
+            "ch04"
+          ],
+          "chapters": [
+            "ch02-narrow-gate",
+            "ch03-backward-planning",
+            "ch04-long-term-value"
+          ]
+        },
+        {
+          "name": "达成之脑/自我形象",
+          "refs": [
+            "ch05"
+          ],
+          "chapters": [
+            "ch05-immediate-gratification"
+          ]
+        },
+        {
+          "name": "团队目标/激励",
+          "refs": [
+            "ch06"
+          ],
+          "chapters": [
+            "ch06-team-goals"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 876,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 805,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1481,
+          "minutes": 4
+        }
+      ]
+    },
+    {
+      "slug": "shaoyouren-zoulu",
+      "title": "少有人走的路（1-8 全套）",
+      "author": "M·斯科特·派克（美，心理医生）",
+      "description": "《少有人走的路》1-8册 全套 (M·斯科特·派克) 心灵成长与心理治愈知识库。核心：自律四原则（推迟满足感、承担责任、忠于事实、保持平衡）、爱、成长与信仰、恩典、诚实与面对谎言、真诚共同体、个体化、关系与婚姻、死亡与生命。适用于个人成长、心理自愈、关系经营、人生意义。",
+      "category": "心理成长",
+      "tagline": "心智成熟的漫长旅程",
+      "theme": {
+        "from": "#1f3b34",
+        "to": "#0f211d",
+        "accent": "#d8c3a5",
+        "glyph": "路"
+      },
+      "intro": "**1. 人生苦难重重 + 自律（全书基石）**\n\"人生苦难重重\"是最伟大的真理——接受它就能从苦难中解脱。解决人生问题的关键在于**自律**：主动要求自己以积极态度承受痛苦、解决问题。自律四原则：**推迟满足感、承担责任、忠于事实、保持平衡**。回避问题与逃避痛苦是人类心理疾病的根源；问题不会自行消失，不解决就会阻碍心智成熟。\n\n**2. 爱（自律的原动力）**\n爱是心灵健康成长的动力，是\"为了促进自我和他人心智成熟，而不断扩展自我界限的意愿\"。真正的爱是行动（投入时间、照料、陪伴），不是感觉或口头承诺。自律以爱为原动力，爱以自律为基石。爱的本质是扩展自我界限、甘愿承受痛苦地促进成长。\n\n**3. 喂养善狼 vs 恶狼（诚实/面对谎言）**\n心中住着两只狼：善狼（勇敢、诚实、爱）与恶狼（畏惧、虚伪、谎言），\"你喂过的那只赢\"。喂养善狼的方法是自律；喂养恶狼的食物是**谎言**——谎言的本质是掩盖真相，人掩盖真相是为了逃避承受痛苦。邪恶由颠倒是非的谎言产生（live 颠倒成 evil）。不解决问题，你就会成为问题。\n\n**4. 成长与信仰、恩典**\n心智成熟是终身旅程：从童年、青年到中年，通过直面问题、扩展意识、建立信仰不断成长。恩典（grace）——生命中的意外馈赠、推动我们超越自利的神秘力量，如爱、潜意识、机遇。成熟的人能放下自我中心，接纳复杂与矛盾。\n\n**5. 真诚共同体（Community）**\n在关系深处不必成为\"一锅粥\"，每个人可像沙拉保持独立完整——**真诚共同体**：聆听不一样的鼓声，接纳个体差异，尊重每个人的个性，相互接纳欣赏。真实造就完整、完整确保真实。人通过与真诚的关系展开自己的生命，成为完整的人（荣格\"个体化\"）。关系中接纳与尊重让神性光芒焕发。\n\n**6. 真诚是生命的药（治疗与关系）**\n真诚面对痛苦是疗愈的开端：真诚与痛苦相伴，逃避痛苦则滋生谎言与疾病。婚姻与家庭是修行道场，真诚关系修复创伤、带来新生。死亡是关系的消失，直面死亡让我们珍惜关系。\n\n**7. 焦虑年代的精神成长**\n反抗草率的思考——独立思考、不随波逐流；在复杂中摔打、在矛盾中抉择（不追求简单确定）；前半生追寻自我、后半生放下自我。成熟=接受复杂与不确定性，保持开放的意识。",
+      "scope": "本书为心理治疗取向的通俗心理学著作，融合精神分析、宗教与个人经验，观点有较强个人色彩与精神性成分，非严格实证科学。涉及严重心理/精神问题（如册2\"邪恶\"、册7）应寻求专业帮助。文中的宗教与信仰框架为作者个人视角，读者可选择性接受。",
+      "chapterCount": 8,
+      "minutes": 17,
+      "chapters": [
+        {
+          "id": "book1-journey",
+          "label": "册1",
+          "title": "心智成熟的旅程",
+          "subtitle": "人生苦难重重、自律四原则、爱、成长与信仰、恩典",
+          "file": "chapters/book1-journey.md",
+          "chars": 1089,
+          "minutes": 3
+        },
+        {
+          "id": "book2-lies",
+          "label": "册2",
+          "title": "勇敢地面对谎言",
+          "subtitle": "恶狼/谎言、邪恶本质、面对内心之恶",
+          "file": "chapters/book2-lies.md",
+          "chars": 773,
+          "minutes": 2
+        },
+        {
+          "id": "book3-dialogue",
+          "label": "册3",
+          "title": "与心灵对话",
+          "subtitle": "人生是修行、心灵探索、寻找归宿",
+          "file": "chapters/book3-dialogue.md",
+          "chars": 659,
+          "minutes": 2
+        },
+        {
+          "id": "book4-anxious-age",
+          "label": "册4",
+          "title": "在焦虑的年代获得精神的成长",
+          "subtitle": "反抗草率思考、复杂中抉择、追寻自我放下自我",
+          "file": "chapters/book4-anxious-age.md",
+          "chars": 720,
+          "minutes": 2
+        },
+        {
+          "id": "book5-drum",
+          "label": "册5",
+          "title": "不一样的鼓声",
+          "subtitle": "真诚共同体、聆听差异、真实与完整、个体化",
+          "file": "chapters/book5-drum.md",
+          "chars": 940,
+          "minutes": 2
+        },
+        {
+          "id": "book6-sincerity",
+          "label": "册6",
+          "title": "真诚是生命的药",
+          "subtitle": "真诚与痛苦、婚姻家庭、真诚与新生",
+          "file": "chapters/book6-sincerity.md",
+          "chars": 686,
+          "minutes": 2
+        },
+        {
+          "id": "book7-window-bed",
+          "label": "册7",
+          "title": "靠窗的床",
+          "subtitle": "死亡、关系、治疗性寓言",
+          "file": "chapters/book7-window-bed.md",
+          "chars": 619,
+          "minutes": 2
+        },
+        {
+          "id": "book8-seeking-stone",
+          "label": "册8",
+          "title": "寻找石头",
+          "subtitle": "生命朝圣、晚期回顾",
+          "file": "chapters/book8-seeking-stone.md",
+          "chars": 673,
+          "minutes": 2
+        }
+      ],
+      "topics": [
+        {
+          "name": "自律（四原则）",
+          "refs": [
+            "册1"
+          ],
+          "chapters": [
+            "book1-journey"
+          ]
+        },
+        {
+          "name": "爱",
+          "refs": [
+            "册1"
+          ],
+          "chapters": [
+            "book1-journey"
+          ]
+        },
+        {
+          "name": "诚实/面对谎言",
+          "refs": [
+            "册2"
+          ],
+          "chapters": [
+            "book2-lies"
+          ]
+        },
+        {
+          "name": "成长与信仰/恩典",
+          "refs": [
+            "册1",
+            "册3"
+          ],
+          "chapters": [
+            "book1-journey",
+            "book3-dialogue"
+          ]
+        },
+        {
+          "name": "真诚/共同体",
+          "refs": [
+            "册5",
+            "册6"
+          ],
+          "chapters": [
+            "book5-drum",
+            "book6-sincerity"
+          ]
+        },
+        {
+          "name": "关系/婚姻/家庭",
+          "refs": [
+            "册6",
+            "册5"
+          ],
+          "chapters": [
+            "book6-sincerity",
+            "book5-drum"
+          ]
+        },
+        {
+          "name": "死亡/生命意义",
+          "refs": [
+            "册7",
+            "册8"
+          ],
+          "chapters": [
+            "book7-window-bed",
+            "book8-seeking-stone"
+          ]
+        },
+        {
+          "name": "焦虑年代/独立思考",
+          "refs": [
+            "册4"
+          ],
+          "chapters": [
+            "book4-anxious-age"
+          ]
+        },
+        {
+          "name": "个体化/真实完整",
+          "refs": [
+            "册5"
+          ],
+          "chapters": [
+            "book5-drum"
+          ]
+        }
+      ],
+      "aux": [
+        {
+          "kind": "cheatsheet",
+          "label": "速查",
+          "title": "速查表",
+          "file": "cheatsheet.md",
+          "chars": 787,
+          "minutes": 2
+        },
+        {
+          "kind": "glossary",
+          "label": "术语",
+          "title": "术语表",
+          "file": "glossary.md",
+          "chars": 810,
+          "minutes": 2
+        },
+        {
+          "kind": "patterns",
+          "label": "模式",
+          "title": "模式库",
+          "file": "patterns.md",
+          "chars": 1220,
+          "minutes": 3
+        }
+      ]
+    }
+  ]
+}

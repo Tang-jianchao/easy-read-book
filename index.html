@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4efe5" id="theme-color" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="书架" />
+    <meta name="description" content="本地电子书架 · 快速浏览 book-to-skills 精读笔记" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <title>我的书架</title>
+    <script>
+      ;(function () {
+        try {
+          var theme = localStorage.getItem('easybook:theme')
+          var font = localStorage.getItem('easybook:font')
+          var dark =
+            theme === 'dark' ||
+            (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+          document.documentElement.dataset.font = font || '1'
+        } catch (e) {
+          document.documentElement.dataset.theme = 'light'
+          document.documentElement.dataset.font = '1'
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
