@@ -31,8 +31,14 @@ const ORDER = [
   'xiaodao-jingjixue',
   'xiaogou-qianqian',
   'qiongchali-baodian',
+  'nawaer-baodian',
   'fan-cuiruo',
   'yanchi-manzu',
+  'yuanzi-xiguan',
+  'bashijian-pengyou',
+  'gaoxiao-rensheng',
+  'shuimian-geming',
+  'qiutu-jianshen',
   'shaoyouren-zoulu',
 ]
 
@@ -77,6 +83,36 @@ const META = {
     category: '心理成长',
     tagline: '心智成熟的漫长旅程',
     theme: { from: '#1f3b34', to: '#0f211d', accent: '#d8c3a5', glyph: '路' },
+  },
+  'nawaer-baodian': {
+    category: '财富哲学',
+    tagline: '专长、杠杆与可习得的幸福',
+    theme: { from: '#3a2547', to: '#17101f', accent: '#e8c87a', glyph: '纳' },
+  },
+  'yuanzi-xiguan': {
+    category: '习惯养成',
+    tagline: '微小改变的复利',
+    theme: { from: '#1f4a4a', to: '#0a2020', accent: '#8fd6c3', glyph: '习' },
+  },
+  'bashijian-pengyou': {
+    category: '时间管理',
+    tagline: '时间不可管理，积累可以',
+    theme: { from: '#4a3a24', to: '#1e1710', accent: '#e8c07d', glyph: '时' },
+  },
+  'gaoxiao-rensheng': {
+    category: '生产力',
+    tagline: '把目标拆成下一步行动',
+    theme: { from: '#28323e', to: '#10151b', accent: '#9fc6e8', glyph: '效' },
+  },
+  'shuimian-geming': {
+    category: '精力管理',
+    tagline: '用 R90 修复睡眠',
+    theme: { from: '#1c2749', to: '#080c1a', accent: '#aab8f0', glyph: '眠' },
+  },
+  'qiutu-jianshen': {
+    category: '体能训练',
+    tagline: '六艺十式，自重进阶',
+    theme: { from: '#5a2620', to: '#24100d', accent: '#f0a35e', glyph: '力' },
   },
 }
 
