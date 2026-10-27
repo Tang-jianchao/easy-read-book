@@ -11,6 +11,8 @@
 
 ## 快速开始
 
+需要 Node.js 22.13+（PDF.js 的构建要求）。
+
 ```bash
 npm install
 npm run dev
