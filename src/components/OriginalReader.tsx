@@ -6,6 +6,7 @@ import { TopBar } from './Bits'
 import { Icon } from './Icon'
 import { EpubViewer } from './viewer/EpubViewer'
 import { PdfViewer } from './viewer/PdfViewer'
+import { SwipeHint } from './viewer/SwipeHint'
 
 export function OriginalReader({ book, file }: { book: OriginalBook; file: OriginalFile }) {
   useEffect(() => {
@@ -51,6 +52,7 @@ export function OriginalReader({ book, file }: { book: OriginalBook; file: Origi
           </div>
         )}
       </div>
+      {(file.format === 'pdf' || file.format === 'epub') && <SwipeHint />}
     </div>
   )
 }

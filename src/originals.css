@@ -413,7 +413,13 @@ body.viewer-open {
   min-height: 0;
   padding: 14px;
   overflow: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
   background: var(--bg-soft);
+}
+
+.pdf-stage.is-zoomed {
+  touch-action: auto;
 }
 
 .pdf-canvas {
@@ -422,6 +428,7 @@ body.viewer-open {
   height: auto;
   background: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 18px 48px rgba(0, 0, 0, 0.14);
+  transition: opacity 0.16s ease;
 }
 
 .viewer-loading,
@@ -465,7 +472,43 @@ body.viewer-open {
   position: relative;
   flex: 1;
   min-height: 0;
+  overscroll-behavior: contain;
   background: var(--bg-soft);
+}
+
+.swipe-hint {
+  position: fixed;
+  z-index: 60;
+  bottom: calc(22px + var(--safe-bottom));
+  left: 50%;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  transform: translateX(-50%);
+  animation: swipe-hint 2.8s ease both;
+}
+
+@keyframes swipe-hint {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 8px);
+  }
+  12% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  82% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, 0);
+  }
 }
 
 .epub-host {

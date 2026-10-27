@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import type { Book as EpubBook, NavItem, Rendition } from 'epubjs'
+import type { Book as EpubBook, Contents, NavItem, Rendition } from 'epubjs'
 import type { OriginalFile } from '../../types'
 import {
   FONT_LABELS,
@@ -103,6 +103,55 @@ export function EpubViewer({
         }
 
         rendition.on('relocated', handleLocation)
+
+        const boundDocs = new WeakSet<Document>()
+        const attachSwipe = (contents: Contents) => {
+          const doc = contents.document
+          if (!doc || boundDocs.has(doc)) return
+          boundDocs.add(doc)
+          doc.documentElement.style.touchAction = 'pan-y'
+
+          let start: { x: number; y: number; t: number } | null = null
+          const turn = (direction: 'next' | 'prev') => {
+            const active = rendition
+            if (!active) return
+            const action = direction === 'next' ? active.next() : active.prev()
+            action.catch(() => undefined)
+          }
+
+          const onStart = (event: TouchEvent) => {
+            const target = event.target as Element | null
+            if (target?.closest?.('a, button, input, textarea, select')) {
+              start = null
+              return
+            }
+            if (event.touches.length !== 1) {
+              start = null
+              return
+            }
+            const touch = event.touches[0]
+            start = { x: touch.clientX, y: touch.clientY, t: Date.now() }
+          }
+
+          const onEnd = (event: TouchEvent) => {
+            const current = start
+            start = null
+            if (!current) return
+            if (doc.getSelection?.()?.toString().trim()) return
+
+            const touch = event.changedTouches[0]
+            if (!touch) return
+            const dx = touch.clientX - current.x
+            const dy = touch.clientY - current.y
+            if (Date.now() - current.t > 900) return
+            if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy) * 1.25) return
+            turn(dx < 0 ? 'next' : 'prev')
+          }
+
+          doc.addEventListener('touchstart', onStart, { passive: true })
+          doc.addEventListener('touchend', onEnd, { passive: true })
+        }
+        rendition.hooks.content.register(attachSwipe)
 
         const saved = getOriginalProgress(bookId, file.id)
         percentRef.current = saved?.percent || 0

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from 'react'
 import type { PDFDocumentProxy } from 'pdfjs-dist'
 import type { OriginalFile } from '../../types'
 import { getOriginalProgress, saveOriginalProgress } from '../../lib/storage'
@@ -18,6 +18,7 @@ export function PdfViewer({
 }) {
   const hostRef = useRef<HTMLDivElement | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const swipeRef = useRef<{ x: number; y: number; t: number } | null>(null)
   const [doc, setDoc] = useState<PDFDocumentProxy | null>(null)
   const [pageNumber, setPageNumber] = useState(1)
   const [pageInput, setPageInput] = useState('1')
@@ -150,6 +151,35 @@ export function PdfViewer({
     setPageNumber(Math.min(Math.max(1, Math.round(value)), total || 1))
   }
 
+  const onTouchStart = (event: ReactTouchEvent<HTMLDivElement>) => {
+    if (event.touches.length !== 1) {
+      swipeRef.current = null
+      return
+    }
+    const touch = event.touches[0]
+    swipeRef.current = { x: touch.clientX, y: touch.clientY, t: Date.now() }
+  }
+
+  const onTouchEnd = (event: ReactTouchEvent<HTMLDivElement>) => {
+    const start = swipeRef.current
+    swipeRef.current = null
+    if (!start || loading || total <= 1) return
+
+    // 放大后允许横向拖动画布，不触发翻页
+    const host = hostRef.current
+    if (!host || host.scrollWidth > host.clientWidth + 2) return
+
+    const touch = event.changedTouches[0]
+    if (!touch) return
+    const dx = touch.clientX - start.x
+    const dy = touch.clientY - start.y
+    if (Date.now() - start.t > 900) return
+    if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy) * 1.25) return
+
+    if (dx < 0) setPageNumber((page) => Math.min(total, page + 1))
+    else setPageNumber((page) => Math.max(1, page - 1))
+  }
+
   const jumpOutline = async (item: OutlineItem) => {
     if (!doc || !item.dest) return
     try {
@@ -280,7 +310,15 @@ export function PdfViewer({
         </div>
       )}
 
-      <div className="pdf-stage" ref={hostRef}>
+      <div
+        className={`pdf-stage${zoom > 1 ? ' is-zoomed' : ''}`}
+        ref={hostRef}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        onTouchCancel={() => {
+          swipeRef.current = null
+        }}
+      >
         {loading && (
           <div className="viewer-loading">
             <Spinner />
@@ -299,7 +337,10 @@ export function PdfViewer({
           ref={canvasRef}
           className="pdf-canvas"
           aria-label={title}
-          style={{ visibility: loading || error ? 'hidden' : 'visible' }}
+          style={{
+            visibility: loading || error ? 'hidden' : 'visible',
+            opacity: loading || error ? 0 : rendering ? 0.55 : 1,
+          }}
         />
         {rendering && !loading && <div className="viewer-rendering">正在渲染…</div>}
       </div>
