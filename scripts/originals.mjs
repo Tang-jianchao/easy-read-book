@@ -289,7 +289,7 @@ function formatRank(format) {
 
 function sourceLabel(source) {
   if (source === 'skill') return '已精读'
-  if (source === 'notes') return '已转换'
+  if (source === 'notes' || source === 'converted') return '已转换'
   return '待整理'
 }
 

@@ -8,6 +8,7 @@ import { Icon } from './Icon'
 const GROUPS: Array<{ source: OriginalBook['source']; title: string; hint: string }> = [
   { source: 'skill', title: '配套精读', hint: '已有精读笔记，可以对照阅读' },
   { source: 'notes', title: '其他已转换', hint: '来自另一条笔记流程' },
+  { source: 'converted', title: '已转换原文', hint: '尚未接入书架' },
   { source: 'archived', title: '归档原文', hint: '尚未生成精读笔记' },
   { source: 'unconverted', title: '待整理原文', hint: '尚未生成精读笔记' },
 ]
