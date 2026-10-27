@@ -4,6 +4,8 @@ export type Route =
   | { name: 'home' }
   | { name: 'book'; slug: string; tab: string }
   | { name: 'reader'; slug: string; chapterId: string; resume: boolean }
+  | { name: 'originals' }
+  | { name: 'original'; bookId: string; fileId: string }
 
 export function parseHash(): Route {
   const raw = window.location.hash.replace(/^#/, '') || '/'
@@ -21,6 +23,13 @@ export function parseHash(): Route {
       }
     }
     return { name: 'book', slug: segments[1], tab: params.get('tab') || 'overview' }
+  }
+
+  if (segments[0] === 'originals') {
+    if (segments[1] && segments[2]) {
+      return { name: 'original', bookId: segments[1], fileId: segments[2] }
+    }
+    return { name: 'originals' }
   }
 
   return { name: 'home' }
@@ -44,6 +53,10 @@ export function routeKey(route: Route): string {
       return `book:${route.slug}`
     case 'reader':
       return `reader:${route.slug}:${route.chapterId}:${route.resume ? 'r' : 'n'}`
+    case 'originals':
+      return 'originals'
+    case 'original':
+      return `original:${route.bookId}:${route.fileId}`
     default:
       return 'home'
   }

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Book, Library, SearchEntry, SearchKind } from '../types'
+import type { Book, Library, OriginalsManifest, SearchEntry, SearchKind } from '../types'
 import { loadSearchIndex } from '../lib/data'
 import { escapeRegExp } from '../lib/markdown'
 import { navigate } from '../lib/router'
@@ -66,7 +66,13 @@ function BookCard({ book }: { book: Book }) {
   )
 }
 
-export function Home({ library }: { library: Library }) {
+export function Home({
+  library,
+  originals,
+}: {
+  library: Library
+  originals: OriginalsManifest | null
+}) {
   const [query, setQuery] = useState('')
   const [entries, setEntries] = useState<SearchEntry[] | null>(null)
   const [searchError, setSearchError] = useState<string | null>(null)
@@ -255,6 +261,26 @@ export function Home({ library }: { library: Library }) {
               <span className="continue__go">
                 <Icon name="arrow-right" size={18} />
               </span>
+            </button>
+          )}
+
+          {originals?.enabled && originals.books.length > 0 && (
+            <button
+              type="button"
+              className="originals-entry"
+              onClick={() => navigate('/originals')}
+            >
+              <span className="originals-entry__mark">
+                <Icon name="book" size={20} />
+              </span>
+              <span className="originals-entry__body">
+                <span className="originals-entry__kicker">本地原文</span>
+                <span className="originals-entry__title">原文书架</span>
+                <span className="originals-entry__sub">
+                  {originals.books.length} 本 · PDF / EPUB · 仅局域网可见
+                </span>
+              </span>
+              <Icon name="arrow-right" size={18} />
             </button>
           )}
 

@@ -12,6 +12,7 @@ import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import os from 'node:os'
 import { fileURLToPath } from 'node:url'
+import { handleOriginalsRequest } from './originals.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'dist')
 const PORT = Number(process.env.PORT) || 4173
@@ -20,6 +21,8 @@ const HOST = process.env.HOST || '0.0.0.0'
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
+  '.mjs': 'text/javascript; charset=utf-8',
+  '.wasm': 'application/wasm',
   '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
   '.svg': 'image/svg+xml',
@@ -35,6 +38,8 @@ const MIME = {
 
 const server = http.createServer(async (req, res) => {
   try {
+    if (await handleOriginalsRequest(req, res)) return
+
     const url = new URL(req.url || '/', 'http://localhost')
     const pathname = decodeURIComponent(url.pathname)
     let filePath = path.join(ROOT, pathname)

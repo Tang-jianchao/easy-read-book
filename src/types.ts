@@ -76,3 +76,36 @@ export type BookProgress = {
 }
 
 export type ProgressStore = Record<string, BookProgress>
+
+export type OriginalFormat = 'pdf' | 'epub' | 'mobi' | 'azw3' | 'txt' | 'md' | 'docx' | 'djvu' | string
+
+export type OriginalFile = {
+  id: string
+  format: OriginalFormat
+  label: string
+  size: number
+  canPreview: boolean
+  downloadName: string
+  url: string
+}
+
+export type OriginalBook = {
+  id: string
+  shelfSlug: string | null
+  title: string
+  author: string
+  source: 'skill' | 'notes' | 'converted' | 'archived' | 'unconverted'
+  sourceLabel: string
+  files: OriginalFile[]
+}
+
+export type OriginalsManifest = {
+  enabled: boolean
+  books: OriginalBook[]
+}
+
+export type OriginalProgress = {
+  locator: string
+  percent: number
+  at: number
+}

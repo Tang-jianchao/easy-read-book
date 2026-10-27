@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Book } from '../types'
+import type { Book, OriginalsManifest } from '../types'
 import { loadBookFile } from '../lib/data'
 import { stripTitle } from '../lib/markdown'
+import { findOriginalForShelf, formatBytes } from '../lib/originals'
 import { navigate } from '../lib/router'
 import { cleanCoverSubtitle, splitBookTitle } from '../lib/title'
 import { getBookProgress, lastReadForBook } from '../lib/storage'
@@ -14,11 +15,21 @@ const BASE_TABS = [
   { key: 'chapters', label: '章节' },
 ]
 
-export function BookPage({ book, initialTab }: { book: Book; initialTab: string }) {
-  const tabs = useMemo(
-    () => [...BASE_TABS, ...book.aux.map((aux) => ({ key: aux.kind, label: aux.label }))],
-    [book],
-  )
+export function BookPage({
+  book,
+  initialTab,
+  originals,
+}: {
+  book: Book
+  initialTab: string
+  originals: OriginalsManifest | null
+}) {
+  const originalBook = findOriginalForShelf(originals, book.slug)
+  const tabs = useMemo(() => {
+    const base = [...BASE_TABS]
+    if (originalBook) base.push({ key: 'original', label: '原文' })
+    return [...base, ...book.aux.map((aux) => ({ key: aux.kind, label: aux.label }))]
+  }, [book, originalBook])
   const normalizeTab = (value: string) =>
     tabs.some((tab) => tab.key === value) ? value : 'overview'
 
@@ -33,6 +44,10 @@ export function BookPage({ book, initialTab }: { book: Book; initialTab: string 
     setDescOpen(false)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialTab, book.slug])
+
+  useEffect(() => {
+    if (initialTab === 'original' && originalBook) setTab('original')
+  }, [initialTab, originalBook])
 
   const progress = getBookProgress(book.slug)
   const resume = lastReadForBook(book)
@@ -242,6 +257,54 @@ export function BookPage({ book, initialTab }: { book: Book; initialTab: string 
               )
             })}
           </ol>
+        </div>
+      )}
+
+      {tab === 'original' && originalBook && (
+        <div className="tab-panel original-panel">
+          <header className="doc-head">
+            <p className="eyebrow">{book.title}</p>
+            <h2>原始电子书</h2>
+            <p className="doc-meta">原文只在本地 / 局域网服务中可读，不会上传到公开站点。</p>
+          </header>
+
+          <div className="original-files">
+            {originalBook.files.map((file) => (
+              <div className="original-file" key={file.id}>
+                <span className="original-file__format">{file.label}</span>
+                <div className="original-file__body">
+                  <strong>{file.label} 原文</strong>
+                  <span>{formatBytes(file.size)}</span>
+                </div>
+                {file.canPreview ? (
+                  <button
+                    type="button"
+                    className="btn btn--primary original-file__action"
+                    onClick={() =>
+                      navigate(
+                        `/originals/${encodeURIComponent(originalBook.id)}/${encodeURIComponent(file.id)}`,
+                      )
+                    }
+                  >
+                    阅读
+                    <Icon name="arrow-right" size={15} />
+                  </button>
+                ) : (
+                  <a
+                    className="btn btn--ghost original-file__action"
+                    href={file.url}
+                    download={file.downloadName}
+                  >
+                    下载
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <button type="button" className="back-to-book" onClick={() => navigate('/originals')}>
+            查看原文书架
+          </button>
         </div>
       )}
 

@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
-import type { Book, BookProgress, ProgressStore } from '../types'
+import type { Book, BookProgress, OriginalProgress, ProgressStore } from '../types'
 
 const THEME_KEY = 'easybook:theme'
 const FONT_KEY = 'easybook:font'
 const PROGRESS_KEY = 'easybook:progress'
+const ORIGINAL_PROGRESS_KEY = 'easybook:original-progress'
 const THEME_EVENT = 'easybook:theme'
 
 export type ThemeMode = 'light' | 'dark'
@@ -149,4 +150,34 @@ export function lastReadForBook(book: Book): { chapterId: string; ratio: number 
   if (!progress?.last) return null
   if (!book.chapters.some((c) => c.id === progress.last?.chapterId)) return null
   return { chapterId: progress.last.chapterId, ratio: progress.last.ratio }
+}
+
+function readOriginalProgress(): Record<string, OriginalProgress> {
+  const raw = readLocal(ORIGINAL_PROGRESS_KEY)
+  if (!raw) return {}
+  try {
+    const parsed = JSON.parse(raw) as Record<string, OriginalProgress>
+    return parsed && typeof parsed === 'object' ? parsed : {}
+  } catch {
+    return {}
+  }
+}
+
+export function getOriginalProgress(bookId: string, fileId: string): OriginalProgress | null {
+  return readOriginalProgress()[`${bookId}/${fileId}`] || null
+}
+
+export function saveOriginalProgress(
+  bookId: string,
+  fileId: string,
+  locator: string,
+  percent: number,
+) {
+  const store = readOriginalProgress()
+  store[`${bookId}/${fileId}`] = {
+    locator,
+    percent: Math.min(1, Math.max(0, percent)),
+    at: Date.now(),
+  }
+  writeLocal(ORIGINAL_PROGRESS_KEY, JSON.stringify(store))
 }
