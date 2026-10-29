@@ -520,6 +520,35 @@ body.viewer-open {
   border: 0;
 }
 
+/* 父页面上的左右点击区，保证 Safari 下点两侧也能翻页 */
+.epub-tap-zone {
+  position: absolute;
+  z-index: 6;
+  top: 0;
+  bottom: 0;
+  width: 18%;
+  max-width: 140px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.epub-tap-zone--prev {
+  left: 0;
+}
+
+.epub-tap-zone--next {
+  right: 0;
+}
+
+.epub-tap-zone:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -4px;
+}
+
 .viewer-toc {
   position: absolute;
   z-index: 20;

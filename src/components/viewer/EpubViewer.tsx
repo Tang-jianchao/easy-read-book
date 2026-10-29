@@ -12,6 +12,7 @@ import {
 } from '../../lib/storage'
 import { Spinner } from '../Bits'
 import { Icon } from '../Icon'
+import { attachReaderGestures } from './gestures'
 
 const FONT_SIZES: Record<FontLevel, string> = {
   0: '96%',
@@ -36,6 +37,8 @@ export function EpubViewer({
   title: string
 }) {
   const hostRef = useRef<HTMLDivElement | null>(null)
+  const prevZoneRef = useRef<HTMLButtonElement | null>(null)
+  const nextZoneRef = useRef<HTMLButtonElement | null>(null)
   const renditionRef = useRef<Rendition | null>(null)
   const locationsReady = useRef(false)
   const lastLocator = useRef<string | null>(null)
@@ -57,6 +60,7 @@ export function EpubViewer({
     let cancelled = false
     let rendition: Rendition | null = null
     let book: EpubBook | null = null
+    const detachers: Array<() => void> = []
 
     ;(async () => {
       setLoading(true)
@@ -111,7 +115,6 @@ export function EpubViewer({
           boundDocs.add(doc)
           doc.documentElement.style.touchAction = 'pan-y'
 
-          let start: { x: number; y: number; t: number } | null = null
           const turn = (direction: 'next' | 'prev') => {
             const active = rendition
             if (!active) return
@@ -119,37 +122,18 @@ export function EpubViewer({
             action.catch(() => undefined)
           }
 
-          const onStart = (event: TouchEvent) => {
-            const target = event.target as Element | null
-            if (target?.closest?.('a, button, input, textarea, select')) {
-              start = null
-              return
-            }
-            if (event.touches.length !== 1) {
-              start = null
-              return
-            }
-            const touch = event.touches[0]
-            start = { x: touch.clientX, y: touch.clientY, t: Date.now() }
-          }
-
-          const onEnd = (event: TouchEvent) => {
-            const current = start
-            start = null
-            if (!current) return
-            if (doc.getSelection?.()?.toString().trim()) return
-
-            const touch = event.changedTouches[0]
-            if (!touch) return
-            const dx = touch.clientX - current.x
-            const dy = touch.clientY - current.y
-            if (Date.now() - current.t > 900) return
-            if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy) * 1.25) return
-            turn(dx < 0 ? 'next' : 'prev')
-          }
-
-          doc.addEventListener('touchstart', onStart, { passive: true })
-          doc.addEventListener('touchend', onEnd, { passive: true })
+          detachers.push(
+            attachReaderGestures(doc, {
+              onPrev: () => turn('prev'),
+              onNext: () => turn('next'),
+              getTapRatio: (event) => {
+                const width = doc.documentElement.clientWidth || doc.body?.clientWidth || 0
+                return width > 0 ? event.clientX / width : null
+              },
+              ignoreSelector: 'a, button, input, textarea, select, [role="button"]',
+              isTextSelected: () => Boolean(doc.getSelection?.()?.toString().trim()),
+            }),
+          )
         }
         rendition.hooks.content.register(attachSwipe)
 
@@ -202,6 +186,7 @@ export function EpubViewer({
       if (lastLocator.current) {
         saveOriginalProgress(bookId, file.id, lastLocator.current, percentRef.current)
       }
+      detachers.forEach((detach) => detach())
       renditionRef.current = null
       rendition?.destroy()
       book?.destroy()
@@ -239,6 +224,30 @@ export function EpubViewer({
     })
     observer.observe(host)
     return () => observer.disconnect()
+  }, [])
+
+  // 父页面左右边缘的透明点击区：Safari 下即使 iframe 事件不稳定也能翻页
+  useEffect(() => {
+    const turn = (direction: 'next' | 'prev') => {
+      const active = renditionRef.current
+      if (!active) return
+      const action = direction === 'next' ? active.next() : active.prev()
+      action.catch(() => undefined)
+    }
+    const zones: Array<[HTMLButtonElement | null, number]> = [
+      [prevZoneRef.current, 0],
+      [nextZoneRef.current, 1],
+    ]
+    const detachers = zones
+      .filter(([element]) => element)
+      .map(([element, ratio]) =>
+        attachReaderGestures(element as HTMLButtonElement, {
+          onPrev: () => turn('prev'),
+          onNext: () => turn('next'),
+          getTapRatio: () => ratio,
+        }),
+      )
+    return () => detachers.forEach((detach) => detach())
   }, [])
 
   useEffect(() => {
@@ -353,6 +362,20 @@ export function EpubViewer({
           className="epub-host"
           aria-label={title}
           style={{ visibility: loading || error ? 'hidden' : 'visible' }}
+        />
+        <button
+          ref={prevZoneRef}
+          type="button"
+          tabIndex={-1}
+          className="epub-tap-zone epub-tap-zone--prev"
+          aria-label="上一页"
+        />
+        <button
+          ref={nextZoneRef}
+          type="button"
+          tabIndex={-1}
+          className="epub-tap-zone epub-tap-zone--next"
+          aria-label="下一页"
         />
       </div>
     </div>
